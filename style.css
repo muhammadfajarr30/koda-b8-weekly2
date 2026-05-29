@@ -1,0 +1,11 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background: #1a73e8;
+  color: #ffffff;
+  padding: 6px 224px;
+}
