@@ -98,7 +98,38 @@ footer {
   color: #dc2626;
 }
 
+.social-media-item {
+    padding: 8px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.subscribe-form {
+  padding: 12px;
+  background: #1e2939;
+  border-radius: 8px;
+}
+
+.subscribe-input,
+.subscribe-btn {
+  border-radius: 6px;
+  padding: 8px 12px;
+  border: none;
+}
+
+.subscribe-input {
+  border: 1px solid #4a5565;
+}
+
 /* Utility Classes */
+
+.bg-blue {
+  background-color: #1a73e8;
+}
+
+.bg-gray {
+  background-color: #364155;
+}
 
 .d-inline-block {
   display: inline-block;
@@ -116,8 +147,16 @@ footer {
   vertical-align: top;
 }
 
+.text-decoration-none {
+  text-decoration: none;
+}
+
 .text-right {
   text-align: right;
+}
+
+.list-none {
+  list-style: none;
 }
 
 .relative {
@@ -134,4 +173,16 @@ footer {
 
 .top-0 {
   top: 0;
+}
+
+.w-24 {
+  width: 24.7%;
+}
+
+.v-top {
+  vertical-align: top;
+}
+
+.d-inline-block {
+  display: inline-block;
 }
