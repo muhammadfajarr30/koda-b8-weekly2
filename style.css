@@ -106,10 +106,30 @@ nav {
   margin-right: 8px;
 }
 
+.top-footer {
+  background: #111827;
+}
+
 .text-gray {
   color: #6b7280;
 }
 
+.text-gray-dark {
+  color: #99a1af;
+}
+.text-white {
+  color: #ffffff;
+}
+
 .promo {
   color: #dc2626;
+}
+
+.top-footer-benefit {
+  display: inline-block;
+  position: relative;
+}
+
+.footer-benefit {
+  display: inline-block;
 }

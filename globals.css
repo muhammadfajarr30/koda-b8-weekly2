@@ -1,0 +1,9 @@
+/* UTILITY CLASSES */
+
+.d-inline-block {
+  display: inline-block;
+}
+
+.align-middle {
+  vertical-align: middle;
+}
