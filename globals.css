@@ -1,9 +1,140 @@
-/* UTILITY CLASSES */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Layout */
+
+header {
+  padding: 6px 224px;
+  background: #1a73e8;
+  color: #fff;
+}
+
+nav {
+  padding: 16px 24px;
+  white-space: nowrap;
+}
+
+.topbar {
+  width: 100%;
+}
+
+.call-center {
+  margin-right: 20px;
+}
+
+.icon-beli-mudah {
+  width: 20%;
+}
+
+/* Navbar */
+
+.nav-items {
+  list-style: none;
+  width: 28%;
+}
+
+.nav-item {
+  margin-left: 12px;
+}
+
+.icon {
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  border-radius: 30%;
+  background: #1a73e8;
+  color: white;
+  margin-right: 8px;
+}
+
+/* Search */
+
+.search-box {
+  width: 50%;
+}
+
+.search-box input {
+  width: 100%;
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid #0000001a;
+  background: #f3f4f6;
+}
+
+.search-box input::placeholder {
+  color: #6b7280;
+}
+
+/* Footer */
+footer {
+  background: #111827;
+}
+
+.benefit-icon {
+  padding: 6px;
+  background-color: #132b4e;
+  border-radius: 100%;
+}
+
+/* Colors */
+
+.text-white {
+  color: #fff;
+}
+
+.text-gray {
+  color: #6b7280;
+}
+
+.text-gray-dark {
+  color: #99a1af;
+}
+
+.promo {
+  color: #dc2626;
+}
+
+/* Utility Classes */
 
 .d-inline-block {
   display: inline-block;
 }
 
-.align-middle {
+.d-block {
+  display: block;
+}
+
+.v-middle {
   vertical-align: middle;
+}
+
+.v-top {
+  vertical-align: top;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.right-0 {
+  right: 0;
+}
+
+.top-0 {
+  top: 0;
+}
+
+.w-50 {
 }

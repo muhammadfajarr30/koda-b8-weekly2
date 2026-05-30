@@ -14,114 +14,193 @@
   </head>
   <body>
     <header>
-      <div class="topbar">
-        <div class="send-to left-content">
-          <img src="./images/location.svg" alt="" />
-          <span>Kirim ke: Jakarta Selatan</span>
+      <div class="topbar relative">
+        <div class="left-content">
+          <img class="v-middle" src="./images/location.svg" alt="" />
+          <span class="v-middle">Kirim ke: Jakarta Selatan</span>
         </div>
-
-        <div class="right-content">
+        <div class="right-content absolute right-0 top-0">
           <span class="call-center">📞 0800-1234-5678 (Gratis)</span>
-          <span class="free-postage">🚀 Gratis ongkir di atas Rp 100.000</span>
+          <span>🚀 Gratis ongkir di atas Rp 100.000</span>
         </div>
       </div>
     </header>
+
     <nav>
       <div class="top-nav">
-        <div class="icon-beli-mudah">
-          <div class="icon">B</div>
-          <span>BeliMudah</span>
+        <div class="icon-beli-mudah d-inline-block v-middle">
+          <div class="icon d-inline-block v-middle">B</div>
+          <span class="d-inline-block v-middle">BeliMudah</span>
         </div>
-        <div class="search-box">
-          <input
-            type="text"
-            name=""
-            id=""
-            placeholder="Cari produk, merek, kategori..." />
+        <div class="search-box d-inline-block v-middle">
+          <input type="text" placeholder="Cari produk, merek, kategori..." />
         </div>
-        <ul class="nav-items">
-          <li class="nav-item"><img src="./images/bell.svg" alt="" /></li>
-          <li class="nav-item">
-            <img src="./images/profile.svg" alt="" /> <span>Budi</span>
+        <ul class="nav-items d-inline-block v-middle text-right">
+          <li class="nav-item d-inline-block v-middle">
+            <img class="v-middle" src="./images/bell.svg" alt="" />
           </li>
-          <li class="nav-item"><img src="./images/heart.svg" alt="" /></li>
-          <li class="nav-item"><img src="./images/cart.svg" alt="" /></li>
+          <li class="nav-item d-inline-block v-middle">
+            <img class="v-middle" src="./images/profile.svg" alt="" />
+            <span class="v-middle">Budi</span>
+          </li>
+          <li class="nav-item d-inline-block v-middle">
+            <img class="v-middle" src="./images/heart.svg" alt="" />
+          </li>
+          <li class="nav-item d-inline-block v-middle">
+            <img class="v-middle" src="./images/cart.svg" alt="" />
+          </li>
         </ul>
       </div>
       <div class="btm-nav">
         <ul class="nav-items">
-          <li class="nav-item">
-            <img src="images/burger-menu.svg" alt="" /><span
-              >Semua Kategori</span
-            >
-            <img src="./images/dropdown.svg" alt="" />
+          <li class="nav-item d-inline-block v-middle">
+            <img class="v-middle" src="images/burger-menu.svg" alt="" />
+            <span class="v-middle">Semua Kategori</span>
+            <img class="v-middle" src="./images/dropdown.svg" alt="" />
           </li>
-          <li class="nav-item text-gray">
-            <span>💻</span><span>Elektronik</span>
+          <li class="nav-item d-inline-block v-middle text-gray">
+            <span class="v-middle">💻</span>
+            <span class="v-middle">Elektronik</span>
           </li>
-          <li class="nav-item text-gray">
-            <span>👗</span><span>Fashion</span>
+          <li class="nav-item d-inline-block v-middle text-gray">
+            <span class="v-middle">👗</span>
+            <span class="v-middle">Fashion</span>
           </li>
-          <li class="nav-item text-gray">
-            <span>🏠</span><span>Rumah & Dapur </span>
+          <li class="nav-item d-inline-block v-middle text-gray">
+            <span class="v-middle">🏠</span>
+            <span class="v-middle">Rumah & Dapur</span>
           </li>
-          <li class="nav-item text-gray">
-            <span>💄</span><span>Kecantikan</span>
+          <li class="nav-item d-inline-block v-middle text-gray">
+            <span class="v-middle">💄</span>
+            <span class="v-middle">Kecantikan</span>
           </li>
-          <li class="nav-item text-gray">
-            <span>⚽</span><span>Olahraga</span>
+          <li class="nav-item d-inline-block v-middle text-gray">
+            <span class="v-middle">⚽</span>
+            <span class="v-middle">Olahraga</span>
           </li>
-          <li class="nav-item text-gray">
-            <span>📚</span><span>Buku & Alat Tulis</span>
+          <li class="nav-item d-inline-block v-middle text-gray">
+            <span class="v-middle">📚</span>
+            <span class="v-middle">Buku & Alat Tulis</span>
           </li>
-          <li class="nav-item promo"><span>🔥</span><span>Promo</span></li>
+          <li class="nav-item d-inline-block v-middle promo">
+            <span class="v-middle">🔥</span>
+            <span class="v-middle">Promo</span>
+          </li>
         </ul>
       </div>
     </nav>
+
     <footer>
       <div class="top-footer">
-        <ul class="top-footer-benefit">
-          <li class="footer-benefit">
+        <ul class="top-footer-benefit d-inline-block relative">
+          <li class="footer-benefit d-inline-block">
             <img
-              class="d-inline-block align-middle"
+              class="benefit-icon d-inline-block v-middle"
               src="./images/truck.svg"
               alt="" />
-            <div class="d-inline-block align-middle">
+            <div class="d-inline-block v-middle">
               <h5 class="text-white">Gratis Ongkir</h5>
               <span class="text-gray-dark">Pembelian di atas Rp 100.000</span>
             </div>
           </li>
-          <li class="footer-benefit">
+          <li class="footer-benefit d-inline-block">
             <img
-              class="d-inline-block align-middle"
+              class="benefit-icon d-inline-block v-middle"
               src="./images/shield.svg"
               alt="" />
-            <div class="d-inline-block align-middle">
+            <div class="d-inline-block v-middle">
               <h5 class="text-white">Pembayaran Aman</h5>
               <span class="text-gray-dark">SSL terenskripsi 256-bit</span>
             </div>
           </li>
-          <li class="footer-benefit">
+          <li class="footer-benefit d-inline-block">
             <img
-              class="d-inline-block align-middle"
+              class="benefit-icon d-inline-block v-middle"
               src="./images/refund.svg"
               alt="" />
-            <div class="d-inline-block align-middle">
+            <div class="d-inline-block v-middle">
               <h5 class="text-white">Pengembalian Mudah</h5>
               <span class="text-gray-dark">30 hari pengembalian gratis</span>
             </div>
           </li>
-          <li class="footer-benefit">
+          <li class="footer-benefit d-inline-block">
             <img
-              class="d-inline-block align-middle"
+              class="benefit-icon d-inline-block v-middle"
               src="./images/support.svg"
               alt="" />
-            <div class="d-inline-block align-middle">
+            <div class="d-inline-block v-middle">
               <h5 class="text-white">Dukungan 24/7</h5>
               <span class="text-gray-dark">Bantuan kapan saja</span>
             </div>
           </li>
         </ul>
+      </div>
+      <div class="main-footer">
+        <section class="footer-column">
+          <div class="icon-beli-mudah">
+            <div class="icon d-inline-block v-middle">B</div>
+            <span class="d-inline-block v-middle">BeliMudah</span>
+          </div>
+          <p>
+            Platform belanja online terpercaya dengan ribuan produk pilihan.
+            Belanja mudah, aman, dan menyenangkan.
+          </p>
+          <ul class="social-media">
+            <li>
+              <a href="#"><img src="./images/facebook.svg" alt="Facebook" /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img src="./images/instagram.svg" alt="Instagram"
+              /></a>
+            </li>
+            <li>
+              <a href="#"><img src="./images/twitter.svg" alt="Twitter" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="./images/youtube.svg" alt="YouTube" /></a>
+            </li>
+          </ul>
+        </section>
+        <section class="footer-column">
+          <h4>Layanan</h4>
+          <ul>
+            <li><a href="#">Tentang Kami</a></li>
+            <li><a href="#">Karir</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Program Afiliasi</a></li>
+            <li><a href="#">Jual di BeliMudah</a></li>
+          </ul>
+        </section>
+        <section class="footer-column">
+          <h4>Bantuan</h4>
+          <ul>
+            <li><a href="#">Cara Belanja</a></li>
+            <li><a href="#">Kebijakan Pengembalian</a></li>
+            <li><a href="#">Lacak Pesanan</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Hubungi Kami</a></li>
+          </ul>
+        </section>
+        <section class="footer-column">
+          <h4>Kontak</h4>
+          <ul>
+            <li>
+              <img src="./images/location-footer.svg" alt="" />
+              <span>
+                Jl. Sudirman No. 1, Jakarta Selatan, DKI Jakarta 12190
+              </span>
+            </li>
+            <li>
+              <img src="./images/telephone.svg" alt="" />
+              <span>0800-1234-5678 (Gratis)</span>
+            </li>
+            <li>
+              <img src="./images/mail.svg" alt="" />
+              <span>bantuan@belimudah.id</span>
+            </li>
+          </ul>
+        </section>
       </div>
     </footer>
   </body>
