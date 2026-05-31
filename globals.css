@@ -4,8 +4,21 @@
   box-sizing: border-box;
 }
 
-section:not(.jumbo-carousel) {
-  padding: 6px 224px;
+header,
+nav,
+section:not(.jumbo-carousel),
+footer {
+  padding: 0px 224px;
+}
+
+hr {
+  margin: 0 -224px;
+  border: none;
+  border-top: 1px solid #0000001a;
+}
+
+.hr-gray-dark {
+  border-top: 1px solid #364153;
 }
 
 header {
@@ -13,9 +26,11 @@ header {
   color: #fff;
 }
 
+.topbar {
+  padding: 6px 0;
+}
+
 .topbar .right-content {
-  top: 50%;
-  transform: translateY(-50%);
   right: 224px;
 }
 
@@ -23,17 +38,8 @@ nav {
   white-space: nowrap;
 }
 
-.call-center {
-  margin-right: 20px;
-}
-
 .icon-beli-mudah {
-  width: 20%;
-  padding-right: 24px;
-}
-
-.btm-nav {
-  text-align: center;
+  margin-right: 24px;
 }
 
 .nav-items {
@@ -41,7 +47,7 @@ nav {
 }
 
 .nav-item {
-  margin-left: 12px;
+  margin-right: 12px;
   padding: 12px;
 }
 
@@ -74,11 +80,22 @@ nav {
 
 footer {
   background: #111827;
-  padding: 6px 224px;
+}
+
+.top-footer-benefit {
+  padding: 32px 0;
 }
 
 .footer-benefit {
   width: 25%;
+}
+
+.main-footer {
+  padding: 48px 0;
+}
+
+.footer-bottom {
+  padding: 16px 0;
 }
 
 .benefit-icon {
@@ -133,6 +150,12 @@ footer {
 
 .footer-column {
   width: 25%;
+}
+
+.topbar .right-content p,
+.footer-bottom .footer-links a {
+  margin-left: 16px;
+  display: inline-block;
 }
 
 .table {
