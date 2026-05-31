@@ -10,7 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Rancho&display=swap"
       rel="stylesheet" />
     <link rel="stylesheet" href="./globals.css" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./css/landing-page.css" />
   </head>
   <body>
     <header>
@@ -25,14 +25,13 @@
         </div>
       </div>
     </header>
-
     <nav>
       <div class="top-nav">
-        <div class="icon-beli-mudah d-inline-block v-middle">
+        <div class="icon-beli-mudah d-inline-block v-middle text-right">
           <div class="icon d-inline-block v-middle">B</div>
           <span class="d-inline-block v-middle">BeliMudah</span>
         </div>
-        <div class="search-box d-inline-block v-middle">
+        <div class="search-box d-inline-block v-middle w-50">
           <input type="text" placeholder="Cari produk, merek, kategori..." />
         </div>
         <ul class="nav-items d-inline-block v-middle text-right">
@@ -90,20 +89,48 @@
       </div>
     </nav>
 
+    <main>
+      <section class="jumbo-carousel relative table text-white">
+        <button class="carousel-btn carousel-btn-left bg-white">
+          <img src="./images/arrow-left.svg" alt="" />
+        </button>
+        <div class="carousel-item carousel-item1 table-cell cell-middle">
+          <h1>Elektronik Pilihan, Harga Spesial</h1>
+          <p>
+            Laptop, smartphone, headphone, dan masih banyak lagi dengan diskon
+            hingga 40%
+          </p>
+          <button class="text-blue bg-white d-inline-block">
+            <span class="d-inline-block v-middle">Lihat Promo</span
+            ><img
+              class="d-inline-block v-middle"
+              src="images/arrow-right.svg"
+              alt="" />
+          </button>
+        </div>
+        <div class="carousel-item carousel-item2 table-cell cell-middle">
+          <img src="./images/carousel-img1.png" alt="" />
+        </div>
+        <button class="carousel-btn carousel-btn-right bg-white">
+          <img src="./images/arrow-right1.svg" alt="" />
+        </button>
+      </section>
+    </main>
+
     <footer>
       <div class="top-footer">
-        <ul class="top-footer-benefit d-inline-block relative">
-          <li class="footer-benefit d-inline-block">
+        <ul class="top-footer-benefit table">
+          <li class="footer-benefit table">
             <img
-              class="benefit-icon d-inline-block v-middle"
+              class="benefit-icon table-cell cell-middle"
               src="./images/truck.svg"
               alt="" />
-            <div class="d-inline-block v-middle">
+            <div class="table-cell cell-middle">
               <h5 class="text-white">Gratis Ongkir</h5>
               <span class="text-gray-dark">Pembelian di atas Rp 100.000</span>
             </div>
           </li>
-          <li class="footer-benefit d-inline-block">
+          <li class="footer-benefit table-cell cell-middle">
             <img
               class="benefit-icon d-inline-block v-middle"
               src="./images/shield.svg"
@@ -113,7 +140,7 @@
               <span class="text-gray-dark">SSL terenskripsi 256-bit</span>
             </div>
           </li>
-          <li class="footer-benefit d-inline-block">
+          <li class="footer-benefit table-cell cell-middle">
             <img
               class="benefit-icon d-inline-block v-middle"
               src="./images/refund.svg"
@@ -123,7 +150,7 @@
               <span class="text-gray-dark">30 hari pengembalian gratis</span>
             </div>
           </li>
-          <li class="footer-benefit d-inline-block">
+          <li class="footer-benefit table-cell cell-middle">
             <img
               class="benefit-icon d-inline-block v-middle"
               src="./images/support.svg"
@@ -135,8 +162,8 @@
           </li>
         </ul>
       </div>
-      <div class="main-footer d-inline-block">
-        <section class="footer-column d-inline-block v-top w-24">
+      <div class="main-footer table">
+        <section class="footer-column table-cell cell-top">
           <div class="icon-beli-mudah-b">
             <div class="icon d-inline-block v-middle">B</div>
             <span class="d-inline-block v-middle text-white">BeliMudah</span>
@@ -180,7 +207,7 @@
             </li>
           </ul>
         </section>
-        <section class="footer-column d-inline-block v-top w-24">
+        <section class="footer-column table-cell cell-top">
           <h4 class="text-white">Layanan</h4>
           <ul class="list-none">
             <li>
@@ -206,7 +233,7 @@
             </li>
           </ul>
         </section>
-        <section class="footer-column d-inline-block v-top w-24">
+        <section class="footer-column table-cell cell-top">
           <h4 class="text-white">Bantuan</h4>
           <ul class="list-none">
             <li>
@@ -234,22 +261,35 @@
             </li>
           </ul>
         </section>
-        <section class="footer-column d-inline-block v-top w-24">
+        <section class="footer-column table-cell cell-top">
           <h4 class="text-white">Kontak</h4>
           <ul class="list-none">
-            <li>
-              <img src="./images/location-footer.svg" alt="" />
-              <span class="text-gray-dark">
+            <li class="table w-max">
+              <img
+                class="table-cell cell-middle"
+                src="./images/location-footer.svg"
+                alt="" />
+              <span class="table-cell cell-middle text-gray-dark">
                 Jl. Sudirman No. 1, Jakarta Selatan, DKI Jakarta 12190
               </span>
             </li>
-            <li>
-              <img src="./images/telephone.svg" alt="" />
-              <span class="text-gray-dark">0800-1234-5678 (Gratis)</span>
+            <li class="table w-max">
+              <img
+                class="table-cell cell-middle"
+                src="./images/telephone.svg"
+                alt="" />
+              <span class="table-cell cell-middle text-gray-dark"
+                >0800-1234-5678 (Gratis)</span
+              >
             </li>
-            <li>
-              <img src="./images/mail.svg" alt="" />
-              <span class="text-gray-dark">bantuan@belimudah.id</span>
+            <li class="table w-max">
+              <img
+                class="table-cell cell-middle"
+                src="./images/mail.svg"
+                alt="" />
+              <span class="table-cell cell-middle text-gray-dark"
+                >bantuan@belimudah.id</span
+              >
             </li>
           </ul>
           <div class="subscribe-form">
@@ -268,11 +308,15 @@
           </div>
         </section>
       </div>
-      <section >
-          <span class="text-gray-dark w-75">2026 BeliMudah. Seluruh hak cipta dilindungi.</span>
-          <a href="" class="text-gray-dark text-decoration-none">Kebijakan Privasi</a
-          ><a href="" class="text-gray-dark text-decoration-none">Syarat dan Ketentuan</a
-          ><a href="" class="text-gray-dark text-decoration-none">Admin</a>
+      <section>
+        <span class="text-gray-dark w-75"
+          >2026 BeliMudah. Seluruh hak cipta dilindungi.</span
+        >
+        <a href="" class="text-gray-dark text-decoration-none"
+          >Kebijakan Privasi</a
+        ><a href="" class="text-gray-dark text-decoration-none"
+          >Syarat dan Ketentuan</a
+        ><a href="" class="text-gray-dark text-decoration-none">Admin</a>
       </section>
     </footer>
   </body>
