@@ -143,3 +143,39 @@ main {
   display: block;
   object-fit: cover;
 }
+
+.deals-container {
+  border-spacing: 16px;
+}
+
+.deal {
+  height: 176px;
+}
+
+.deal img {
+  width: 100%;
+  height: 100%;
+  border-radius: 16px;
+  object-fit: cover;
+}
+
+.deal .deal-content {
+  top: 50%;
+  transform: translateY(-50%);
+  left: 24px;
+  z-index: 2;
+}
+
+.deal .deal-content button {
+  background-color: transparent;
+  border: 1px solid white;
+  padding: 4px 12px;
+  color: white;
+  border-radius: 8px;
+  font-size: 14px;
+  margin-top: 6px;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
