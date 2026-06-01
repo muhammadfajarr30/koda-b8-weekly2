@@ -1,0 +1,50 @@
+main {
+    background-color: #f8f9fb;
+}
+
+.product-table {
+    min-height: 1200px;
+    border-collapse: separate;
+    border-spacing: 24px;
+}
+
+.product-table .cell-content,
+.product-table .cell-sidebar {
+    border: 1px solid red;
+}
+
+.product-table .cell-sidebar {
+    width: 20%;
+}
+
+.product-table .cell-content {
+    width: 80%;
+}
+
+.filter {
+    padding-bottom: 24px;
+}
+
+.filter h3 {
+    font-weight: 500;
+    padding-bottom: 12px;
+}
+
+
+.filter label {
+    color: #6B7280;
+    font-size: 14px;
+}
+
+.price-filter input {
+    border: none;
+}
+
+.flash-sale-item-row {
+  display: table-row;
+}
+
+.cell-content .items .flash-item {
+    border: 1px solid red;
+    height: 350px;
+}

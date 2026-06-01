@@ -37,7 +37,7 @@ header {
 }
 
 .topbar .right-content {
-  right: 224px;
+  right: 0;
 }
 
 nav {
@@ -82,6 +82,27 @@ nav {
 
 .search-box input::placeholder {
   color: #6b7280;
+}
+
+.floating-bubble-chat {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 9999;
+  border-radius: 50%;
+  padding: 12px;
+  border: none;
+
+  &:hover {
+    cursor: pointer;
+    opacity: 0.8;
+  }
+}
+
+.floating-bubble-chat img {
+  display: block;
+  width: 24px;
+  height: 24px;
 }
 
 footer {

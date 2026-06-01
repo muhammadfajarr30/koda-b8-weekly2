@@ -1,0 +1,418 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./globals.css" />
+    <link rel="stylesheet" href="./css/browse.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="topbar relative">
+        <span class="left-content">
+          <img class="v-middle" src="./images/location.svg" alt="" />
+          <span class="v-middle">Kirim ke: Jakarta Selatan</span>
+        </span>
+        <span class="right-content absolute">
+          <p>📞 0800-1234-5678 (Gratis)</p>
+          <p>🚀 Gratis ongkir di atas Rp 100.000</p>
+        </span>
+      </div>
+    </header>
+    <nav>
+      <div class="top-nav">
+        <a
+          class="icon-beli-mudah d-inline-block v-middle"
+          href="/landing-page.html">
+          <div class="icon d-inline-block v-middle">B</div>
+          <span class="d-inline-block v-middle">BeliMudah</span>
+        </a>
+        <div class="search-box d-inline-block v-middle">
+          <input type="text" placeholder="Cari produk, merek, kategori..." />
+        </div>
+        <ul class="nav-items d-inline-block v-middle text-right">
+          <li class="nav-item d-inline-block v-middle">
+            <img class="v-middle" src="./images/bell.svg" alt="" />
+          </li>
+          <li class="nav-item d-inline-block v-middle">
+            <img class="v-middle" src="./images/profile.svg" alt="" />
+            <span class="v-middle">Budi</span>
+          </li>
+          <li class="nav-item d-inline-block v-middle">
+            <img class="v-middle" src="./images/heart.svg" alt="" />
+          </li>
+          <li class="nav-item d-inline-block v-middle">
+            <img class="v-middle" src="./images/cart.svg" alt="" />
+          </li>
+        </ul>
+      </div>
+      <hr />
+      <div class="btm-nav">
+        <ul class="nav-items">
+          <li class="nav-item d-inline-block v-middle">
+            <img class="v-middle" src="images/burger-menu.svg" alt="" />
+            <span class="v-middle">Semua Kategori</span>
+            <img class="v-middle" src="./images/dropdown.svg" alt="" />
+          </li>
+          <li class="nav-item d-inline-block v-middle text-gray">
+            <span class="v-middle">💻</span>
+            <span class="v-middle">Elektronik</span>
+          </li>
+          <li class="nav-item d-inline-block v-middle text-gray">
+            <span class="v-middle">👗</span>
+            <span class="v-middle">Fashion</span>
+          </li>
+          <li class="nav-item d-inline-block v-middle text-gray">
+            <span class="v-middle">🏠</span>
+            <span class="v-middle">Rumah & Dapur</span>
+          </li>
+          <li class="nav-item d-inline-block v-middle text-gray">
+            <span class="v-middle">💄</span>
+            <span class="v-middle">Kecantikan</span>
+          </li>
+          <li class="nav-item d-inline-block v-middle text-gray">
+            <span class="v-middle">⚽</span>
+            <span class="v-middle">Olahraga</span>
+          </li>
+          <li class="nav-item d-inline-block v-middle text-gray">
+            <span class="v-middle">📚</span>
+            <span class="v-middle">Buku & Alat Tulis</span>
+          </li>
+          <li class="nav-item d-inline-block v-middle promo">
+            <span class="v-middle">🔥</span>
+            <span class="v-middle">Promo</span>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <main class="relative">
+      <button class="floating-bubble-chat right-0 bg-blue">
+        <img src="/images/bubble-chat.svg" alt="" />
+      </button>
+      <section>
+        <div class="breadcrumb">
+          <a href="">Beranda</a>
+          <img src="/images/arrow-right-breadcrumb.svg" alt="" />
+          <a href="">Toko</a>
+        </div>
+        <h2>Semua Produk</h2>
+        <div class="product-table table">
+          <aside class="cell-sidebar table-cell">
+            <div class="price-filter filter">
+              <h3>Harga</h3>
+              <div>
+                <input type="text" name="" id="" value="Rp. 0" />
+                <input type="text" name="" id="" value="Rp. 20.000.000" />
+              </div>
+            </div>
+            <div class="merk-filter filter">
+              <h3>Merek</h3>
+              <div>
+                <input type="checkbox" name="tech-master" id="tech-master" />
+                <label for="tech-master">TechMaster</label>
+              </div>
+              <div>
+                <input type="checkbox" name="" id="" />
+                <label for="">SoundWave</label>
+              </div>
+              <div>
+                <input type="checkbox" name="" id="" />
+                <label for="">PhoneX</label>
+              </div>
+              <div>
+                <input type="checkbox" name="" id="" />
+                <label for="">Opticam</label>
+              </div>
+              <div>
+                <input type="checkbox" name="" id="" />
+                <label for="">FashionID</label>
+              </div>
+              <div>
+                <input type="checkbox" name="" id="" />
+                <label for="">SportPro</label>
+              </div>
+              <div>
+                <input type="checkbox" name="" id="" />
+                <label for="">BrewMaster</label>
+              </div>
+              <div>
+                <input type="checkbox" name="" id="" />
+                <label for="">GlowLab</label>
+              </div>
+            </div>
+            <div class="rating-filter filter">
+              <h3>Rating Minimum</h3>
+              <div>
+                <input type="radio" name="rating" id="4-star" />
+                <label for="4-star">★★★★☆ ke atas</label>
+              </div>
+              <div>
+                <input type="radio" name="rating" id="3-star" />
+                <label for="3-star">★★★☆☆ ke atas</label>
+              </div>
+              <div>
+                <input type="radio" name="rating" id="2-star" />
+                <label for="2-star">★★☆☆☆ ke atas</label>
+              </div>
+            </div>
+            <div class="availablity-filter filter">
+              <h3>Ketersediaan</h3>
+              <div>
+                <input type="checkbox" id="available" />
+                <label for="available">Stok Tersedia</label>
+              </div>
+            </div>
+          </aside>
+          <div class="cell-content table-cell">
+            <div class="table">
+              <p>18 produk ditemukan</p>
+
+              <div class="table-cell text-right">
+                <label for="cars">Urutkan:</label>
+                <select name="cars" id="cars">
+                  <option value="volvo">Volvo</option>
+                  <option value="saab">Saab</option>
+                  <option value="opel">Opel</option>
+                  <option value="audi">Audi</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="items table">
+              <div class="flash-sale-item-row">
+                <div class="flash-item bg-white table-cell">... Item 1 ...</div>
+                <div class="flash-item bg-white table-cell">... Item 2 ...</div>
+                <div class="flash-item bg-white table-cell">... Item 3 ...</div>
+                <div class="flash-item bg-white table-cell">... Item 4 ...</div>
+              </div>
+              <div class="flash-sale-item-row">
+                <div class="flash-item bg-white table-cell">... Item 1 ...</div>
+                <div class="flash-item bg-white table-cell">... Item 2 ...</div>
+                <div class="flash-item bg-white table-cell">... Item 3 ...</div>
+                <div class="flash-item bg-white table-cell">... Item 4 ...</div>
+              </div>
+              <div class="flash-sale-item-row">
+                <div class="flash-item bg-white table-cell">... Item 1 ...</div>
+                <div class="flash-item bg-white table-cell">... Item 2 ...</div>
+                <div class="flash-item bg-white table-cell">... Item 3 ...</div>
+                <div class="flash-item bg-white table-cell">... Item 4 ...</div>
+              </div>
+            </div>
+            <div class="text-center">
+              <button>Muat Lebih Banyak Produk (6 produk lagi)</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="top-footer">
+        <ul class="top-footer-benefit table">
+          <li class="footer-benefit table">
+            <img
+              class="benefit-icon table-cell cell-middle"
+              src="./images/truck.svg"
+              alt="" />
+            <div class="table-cell cell-middle">
+              <h5 class="text-white">Gratis Ongkir</h5>
+              <span class="text-gray-dark">Pembelian di atas Rp 100.000</span>
+            </div>
+          </li>
+          <li class="footer-benefit table-cell cell-middle">
+            <img
+              class="benefit-icon d-inline-block v-middle"
+              src="./images/shield.svg"
+              alt="" />
+            <div class="d-inline-block v-middle">
+              <h5 class="text-white">Pembayaran Aman</h5>
+              <span class="text-gray-dark">SSL terenskripsi 256-bit</span>
+            </div>
+          </li>
+          <li class="footer-benefit table-cell cell-middle">
+            <img
+              class="benefit-icon d-inline-block v-middle"
+              src="./images/refund.svg"
+              alt="" />
+            <div class="d-inline-block v-middle">
+              <h5 class="text-white">Pengembalian Mudah</h5>
+              <span class="text-gray-dark">30 hari pengembalian gratis</span>
+            </div>
+          </li>
+          <li class="footer-benefit table-cell cell-middle">
+            <img
+              class="benefit-icon d-inline-block v-middle"
+              src="./images/support.svg"
+              alt="" />
+            <div class="d-inline-block v-middle">
+              <h5 class="text-white">Dukungan 24/7</h5>
+              <span class="text-gray-dark">Bantuan kapan saja</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <hr class="hr-gray-dark" />
+      <div class="main-footer table">
+        <div class="footer-column table-cell cell-top">
+          <div class="icon-beli-mudah-b">
+            <div class="icon d-inline-block v-middle">B</div>
+            <span class="d-inline-block v-middle text-white">BeliMudah</span>
+          </div>
+          <p class="text-gray-dark">
+            Platform belanja online terpercaya dengan ribuan produk pilihan.
+            Belanja mudah, aman, dan menyenangkan.
+          </p>
+          <ul class="social-media d-inline-block">
+            <li class="d-inline-block">
+              <a href="#"
+                ><img
+                  class="social-media-item bg-gray"
+                  src="./images/facebook.svg"
+                  alt="Facebook"
+              /></a>
+            </li>
+            <li class="d-inline-block">
+              <a href="#"
+                ><img
+                  class="social-media-item bg-gray"
+                  src="./images/instagram.svg"
+                  alt="Instagram"
+              /></a>
+            </li>
+            <li class="d-inline-block">
+              <a href="#"
+                ><img
+                  class="social-media-item bg-gray"
+                  src="./images/twitter.svg"
+                  alt="Twitter"
+              /></a>
+            </li>
+            <li class="d-inline-block">
+              <a href="#"
+                ><img
+                  class="social-media-item bg-gray"
+                  src="./images/youtube.svg"
+                  alt="YouTube"
+              /></a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-column table-cell cell-top">
+          <h4 class="text-white">Layanan</h4>
+          <ul class="list-none">
+            <li>
+              <a class="text-gray-dark text-decoration-none" href="#"
+                >Tentang Kami</a
+              >
+            </li>
+            <li>
+              <a class="text-gray-dark text-decoration-none" href="#">Karir</a>
+            </li>
+            <li>
+              <a class="text-gray-dark text-decoration-none" href="#">Blog</a>
+            </li>
+            <li>
+              <a class="text-gray-dark text-decoration-none" href="#"
+                >Program Afiliasi</a
+              >
+            </li>
+            <li>
+              <a class="text-gray-dark text-decoration-none" href="#"
+                >Jual di BeliMudah</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="footer-column table-cell cell-top">
+          <h4 class="text-white">Bantuan</h4>
+          <ul class="list-none">
+            <li>
+              <a class="text-gray-dark text-decoration-none" href="#"
+                >Cara Belanja</a
+              >
+            </li>
+            <li>
+              <a class="text-gray-dark text-decoration-none" href="#"
+                >Kebijakan Pengembalian</a
+              >
+            </li>
+            <li>
+              <a class="text-gray-dark text-decoration-none" href="#"
+                >Lacak Pesanan</a
+              >
+            </li>
+            <li>
+              <a class="text-gray-dark text-decoration-none" href="#">FAQ</a>
+            </li>
+            <li>
+              <a class="text-gray-dark text-decoration-none" href="#"
+                >Hubungi Kami</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="footer-column table-cell cell-top">
+          <h4 class="text-white">Kontak</h4>
+          <ul class="list-none">
+            <li class="table w-max">
+              <img
+                class="table-cell cell-middle"
+                src="./images/location-footer.svg"
+                alt="" />
+              <span class="table-cell cell-middle text-gray-dark">
+                Jl. Sudirman No. 1, Jakarta Selatan, DKI Jakarta 12190
+              </span>
+            </li>
+            <li class="table w-max">
+              <img
+                class="table-cell cell-middle"
+                src="./images/telephone.svg"
+                alt="" />
+              <span class="table-cell cell-middle text-gray-dark"
+                >0800-1234-5678 (Gratis)</span
+              >
+            </li>
+            <li class="table w-max">
+              <img
+                class="table-cell cell-middle"
+                src="./images/mail.svg"
+                alt="" />
+              <span class="table-cell cell-middle text-gray-dark"
+                >bantuan@belimudah.id</span
+              >
+            </li>
+          </ul>
+          <div class="subscribe-form">
+            <div class="text-white">Newsletter</div>
+            <div class="d-inline-block">
+              <input
+                class="subscribe-input bg-gray text-white"
+                type="email"
+                name=""
+                id=""
+                placeholder="Email kamu" />
+              <button class="subscribe-btn text-white bg-blue" type="submit">
+                Langganan
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr class="hr-gray-dark" />
+      <div class="footer-bottom relative">
+        <span class="text-gray-dark w-75"
+          >2026 BeliMudah. Seluruh hak cipta dilindungi.</span
+        >
+        <span class="footer-links absolute right-0">
+          <a href="" class="text-gray-dark text-decoration-none"
+            >Kebijakan Privasi</a
+          ><a href="" class="text-gray-dark text-decoration-none"
+            >Syarat dan Ketentuan</a
+          ><a href="" class="text-gray-dark text-decoration-none">Admin</a>
+        </span>
+      </div>
+    </footer>
+  </body>
+</html>
