@@ -8,7 +8,7 @@ header,
 nav,
 section:not(.jumbo-carousel),
 footer {
-  padding: 0px 224px;
+  padding: 16px  224px;
 }
 
 hr {
@@ -225,6 +225,10 @@ footer {
 
 .text-decoration-line {
   text-decoration: line-through;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .text-right {
