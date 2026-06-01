@@ -92,7 +92,7 @@ main {
     margin-top: 16px;
     border-collapse: separate;
     border-spacing: 12px;
-    .flash-item {
+    .item-col {
       border-radius: 12px;
     }
   }
@@ -123,10 +123,14 @@ main {
 .flash-sale-items {
   width: 100%;
   border-collapse: separate;
-  border-spacing: 16px 0px;
+  border-spacing: 16px;
 }
 
-.flash-sale-items .flash-item {
+.row {
+  display: table-row;
+}
+
+.flash-sale-items .item-col {
   width: 25%;
   border: 1px solid #0000001a;
   vertical-align: top;
