@@ -1,0 +1,170 @@
+section {
+  max-width: 1280px;
+  margin: auto;
+  padding: 12px;
+}
+.product-container {
+  display: flex;
+  gap: 40px;
+  width: 1280px;
+}
+
+.product-view,
+.product-info {
+  margin-top: 24px;
+  height: 700px;
+  width: 100%;
+}
+
+.product-info {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.product-info {
+  margin-bottom: 100px;
+}
+
+.product-view > img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.product-thumbnail {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  border-radius: 12px;
+}
+
+.product-thumbnail img {
+  width: 64px;
+  height: 64px;
+  border-radius: 12px;
+
+}
+
+.price-container {
+  background: #eff6ff;
+  border-radius: 12px;
+  padding: 16px;
+  height: 98px;
+}
+
+.brand-item {
+  color: #6B7280;
+}
+
+.rating span:last-child {
+  padding: 2px 8px;
+  background-color: #F0FDF4;
+  color: #00a63e;
+  border-radius: 16777200px;
+}
+
+.price-tag {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.price-tag > p {
+  text-decoration: line-through;
+  color: #6B7280;
+}
+
+.price-tag span {
+  background-color: #dc2626;
+  color: #ffffff;
+  border-radius: 20px;
+  padding: 2px 8px;
+}
+
+.hemat {
+  margin-top: 12px;
+}
+.hemat p {
+  color: #00a63e;
+}
+
+.stock p {
+  color: #6B7280;
+  font-size: 14px;
+}
+
+button {
+  border: 1px solid #0000001a;
+  padding: 6px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #ffffff;
+}
+
+.favorite {
+  width: 48px;
+  height: 56px;
+}
+
+.counter-btn {
+  margin-right: 12px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.buyout {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.add-to-cart img {
+  width: 12px;
+  height: 12px;
+}
+
+.add-to-cart,
+.checkout {
+  padding: 14px 0;
+}
+
+.favorite img {
+  width: 20px;
+  height: 20px;
+}
+
+.add-to-cart {
+  border: 2px solid #f97316;
+  color: #f97316;
+  background-color: #ffffff;
+  width: 268px;
+  height: 56px;
+}
+
+.checkout {
+  border: 2px solid #f97316;
+  background-color: #f97316;
+  color: #ffffff;
+  width: 268px;
+  height: 56px;
+}
+
+.favourite {
+  background-color: white;
+}
+
+.shop-feature {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.feature {
+  width: 193.3333282470703px;
+  padding: 10px;
+  background: #e5e7eb80;
+  border-radius: 8px;
+}
+
