@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="css/checkout.css" />
+    <title>Checkout</title>
+  </head>
+  <body>
+    <main>
+      <section class="form-checkout">
+        <form action="">
+          <div class="title">
+            <img src="/images/truck.svg" alt="" />
+            <h3>Alamat pengiriman</h3>
+          </div>
+          <div class="input-group phone-name">
+            <div class="name">
+              <label for="name">Nama Penerima *</label>
+              <input type="text" name="" id="name" placeholder="Budi Santoso" />
+            </div>
+            <div class="phone">
+              <label for="phone">Nomor Telepon *</label>
+              <input type="tel" id="phone" placeholder="0812-3456-7890" />
+            </div>
+          </div>
+          <div class="input-group">
+            <label for="email">Email *</label>
+            <input type="text" id="email" placeholder="budi@gmail.com" />
+          </div>
+          <div class="input-group">
+            <label for="address">Alamat Lengkap *</label>
+            <input
+              type="text"
+              id="address"
+              placeholder="Jl. Kebon Jeruk No. 15" />
+          </div>
+          <div class="input-group city-province">
+            <div class="city">
+              <label for="city">Kota *</label>
+              <input type="text" id="city" placeholder="Jakarta Barat" />
+            </div>
+            <div class="province">
+              <label for="province">Province *</label>
+              <input type="text" id="province" placeholder="DKI Jakarta" />
+            </div>
+          </div>
+          <div class="input-group zip-note">
+            <div class="zip">
+              <label for="zip">Kode Pos *</label>
+              <input type="number" id="zip" placeholder="11520" />
+            </div>
+            <div class="note">
+              <label for="notes">Catatan (opsional)</label>
+              <input type="text" id="notes" placeholder="warna pagar, dll." />
+            </div>
+          </div>
+          <div class="shipping-method">
+            <input type="radio" name="shipping" id="reguler" />
+            <label for="reguler" class="shipping-card">
+              <div class="shipping-name">
+                <h4>JNE Reguler</h4>
+                <p>3-5 hari kerja</p>
+              </div>
+              <span>GRATIS</span>
+            </label>
+          </div>
+
+          <div class="shipping-method">
+            <input type="radio" name="shipping" id="express" />
+            <label for="express" class="shipping-card">
+              <div class="shipping-name">
+                <h4>JNE Express</h4>
+                <p>1-2 hari kerja</p>
+              </div>
+              <span>GRATIS</span>
+            </label>
+          </div>
+
+          <div class="shipping-method">
+            <input type="radio" name="shipping" id="sameday" />
+            <label for="sameday" class="shipping-card">
+              <div class="shipping-name">
+                <h4>Same Day Delivery</h4>
+                <p>Hari ini (sebelum 16.00)</p>
+              </div>
+              <span>GRATIS</span>
+            </label>
+          </div>
+          <div class="payment-btn">
+            <button>Lanjut Ke Pembayaran <img src="/images/arrow-right1.svg" alt=""></button>
+          </div>
+        </form>
+      </section>
+      <section class="order-summary">
+        <div class="container-order">
+          <div class="heading">
+            <h3>Ringkasan Pesanan</h3>
+          </div>
+          <div class="order-count">
+            <img src="/images/Headphone Wireless Premium.png" alt="" />
+            <p>Headphone Wireless Premium</p>
+            <span>x1</span>
+          </div>
+          <hr />
+          <div class="summary-row">
+            <span>Subtotal</span>
+            <span>Rp 450.000</span>
+          </div>
+
+          <hr />
+
+          <div class="summary-row">
+            <span>Ongkir</span>
+            <span>Gratis</span>
+          </div>
+          <div class="summary-row">
+            <span>Total</span>
+            <span>Rp.450.000</span>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
