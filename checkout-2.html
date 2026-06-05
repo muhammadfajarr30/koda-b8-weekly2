@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="css/checkout.css" />
+    <title>Checkout</title>
+  </head>
+  <body>
+    <main>
+      <section class="payment-method">
+        <div class="container">
+          <div class="title">
+            <img src="images/wallet.svg" alt="" />
+            <h3>Metode Pembayaran</h3>
+          </div>
+          <div class="payment-choice">
+            <input type="radio" name="payment" id="bca" />
+            <label for="bca" class="payment-card">
+              <img src="" alt="" />
+              <span>Virtual Account BCA</span>
+            </label>
+            <input type="radio" name="payment" id="bni" />
+            <label for="bni" class="payment-card">
+              <img src="" alt="" />
+              <span>Virtual Account BNI</span>
+            </label>
+            <input type="radio" name="payment" id="credit-card" />
+            <label for="credit-card" class="payment-card">
+              <img src="" alt="" />
+              <span>Kartu Kredit / Debit</span>
+            </label>
+            <input type="radio" name="payment" id="gopay" />
+            <label for="gopay" class="payment-card">
+              <img src="" alt="" />
+              <span>Gopay</span>
+            </label>
+            <input type="radio" name="payment" id="ovo" />
+            <label for="ovo" class="payment-card">
+              <img src="" alt="" />
+              <span>Ovo</span>
+            </label>
+            <input type="radio" name="payment" id="dana" />
+            <label for="dana" class="payment-card">
+              <img src="" alt="" />
+              <span>Dana</span>
+            </label>
+          </div>
+
+          <div class="security-info">
+            <img src="/images/lock.svg" alt="" />
+            <p>
+              Informasi pembayaranmu dienkripsi dengan SSL 256-bit. Kami tidak
+              menyimpan data kartu kreditmu.
+            </p>
+          </div>
+        </div>
+        <div class="return-confirm">
+          <button class="btn-return">Kembali</button>
+          <button class="btn-confirm">Lanjut Ke Konfirmasi</button>
+        </div>
+      </section>
+      <section class="order-summary">
+        <div class="container-order">
+          <div class="heading">
+            <h3>Ringkasan Pesanan</h3>
+          </div>
+          <div class="order-count">
+            <img src="/images/Headphone Wireless Premium.png" alt="" />
+            <p>Headphone Wireless Premium</p>
+            <span>x1</span>
+          </div>
+          <hr />
+          <div class="summary-row">
+            <span>Subtotal</span>
+            <span>Rp 450.000</span>
+          </div>
+
+          <hr />
+
+          <div class="summary-row">
+            <span>Ongkir</span>
+            <span>Gratis</span>
+          </div>
+          <div class="summary-row">
+            <span>Total</span>
+            <span>Rp.450.000</span>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
