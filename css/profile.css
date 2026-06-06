@@ -1,0 +1,153 @@
+body {
+  background-color: #f8f9fb;
+}
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #6b7280;
+  padding: 12px;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: #e5e7eb;
+  margin: 16px 0;
+  width: 100%;
+}
+
+.logout {
+  color: red;
+}
+
+.container {
+  max-width: 1728px;
+  margin: 0 auto;
+  padding: 40px 20px;
+
+  display: grid;
+  grid-template-columns: 280px 1fr;
+}
+
+.profile-card {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border: 1px solid lightblue;
+  border-radius: 16px;
+  background-color: white;
+  padding: 24px;
+}
+
+.profile-stats {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+
+.menu {
+  width: 100%;
+  border: 1px solid lightblue;
+  border-radius: 16px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  justify-content: center;
+  padding: 24px;
+}
+
+.menu div {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  color: white;
+  width: 64px;
+  height: 64px;
+  background-color: #000080;
+  border-radius: 50%;
+}
+
+.order-shipped {
+  background-color: white;
+  border: 1px solid lightblue;
+  border-radius: 12px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.order-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.order-status {
+  padding: 4px 12px;
+  background-color: lightgreen;
+  border-radius: 12px;
+  color: darkgreen;
+}
+
+.product-detail {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.product-detail img {
+  width: 48px;
+  height: 48px;
+  border-radius: 8px;
+}
+
+.action {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #e5e7eb;
+  padding-top: 8px;
+}
+
+.btn-action {
+  padding: 12px 24px;
+  cursor: pointer;
+  border-radius: 12px;
+  border: none;
+}
+
+.track {
+  border: 1px solid #1a73e8;
+  background-color: white;
+  color: #1a73e8;
+}
+
+.give-rating {
+  background-color: #f97316;
+  color: white;
+  img {
+    margin-right: 6px;
+  }
+}
+
+.buy-more {
+  background-color: #000080;
+  color: white;
+}
