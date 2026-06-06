@@ -1,5 +1,5 @@
 body {
-  background-color: #f8f9fb ;
+  background-color: #f8f9fb;
 }
 main {
   max-width: 1728px;
@@ -17,7 +17,8 @@ form {
 }
 
 .form-checkout,
-.payment-method {
+.payment-method,
+.confirm-order {
   width: 736px;
   border: 1px solid red;
   background-color: white;
@@ -178,13 +179,14 @@ hr {
 
   background-color: white;
   cursor: pointer;
-} 
+}
 
 .title {
   margin: 16px 0;
 }
 
-.security-info {
+.security-info,
+.payment-notice {
   display: flex;
   align-items: center;
   gap: 12px;
@@ -194,17 +196,18 @@ hr {
   padding: 12px;
   border-radius: 12px;
   background-color: #eff6ff;
-  border: 1px solid #DBEAFE;
+  border: 1px solid #dbeafe;
   img {
     width: 20px;
     height: 20px;
   }
   p {
-    color: #6B7280;
+    color: #6b7280;
   }
 }
 
-.return-confirm {
+.return-confirm,
+.return-payment {
   display: flex;
   gap: 6px;
 }
@@ -212,19 +215,69 @@ hr {
 .btn-return {
   border: 1px solid #ffffff;
   padding: 13px;
-  color: #6B7280;
+  color: #6b7280;
   cursor: pointer;
   border-radius: 12px;
-
 }
 
 .btn-confirm {
   border: 1px solid #1a73e8;
   background-color: #1a73e8;
   padding: 13px;
-  color: #FFFFFF;
+  color: #ffffff;
   border-radius: 12px;
   cursor: pointer;
   width: 100%;
 }
 
+.btn-payment {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  border: 1px solid #f97316;
+  background-color: #f97316;
+  padding: 13px;
+  color: #ffffff;
+  border-radius: 12px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.address-card,
+.shipping-info,
+.ordered-products {
+  padding: 16px;
+  background-color: #f8f8f8;
+  border-radius: 12px;
+}
+
+.ordered-products img {
+  width: 80px;
+  height: 80px;
+  border-radius: 8px;
+}
+
+.product-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product-detail {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.address-card p:nth-child(2),
+.address-card p:nth-child(3),
+.shipping-info p:nth-child(2) {
+  color: #6b7280;
+}
