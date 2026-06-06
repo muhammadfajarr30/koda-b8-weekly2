@@ -26,6 +26,15 @@ form {
   border-radius: 12px;
 }
 
+.checkout-success {
+  width: 736px;
+  border: 1px solid red;
+  border: 1px solid red;
+  background-color: #f8f9fb;
+  padding: 24px;
+  border-radius: 12px;
+}
+
 .order-summary {
   width: 352px;
   max-height: fit-content;
@@ -212,6 +221,12 @@ hr {
   gap: 6px;
 }
 
+.btn-group-success {
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+}
+
 .btn-return {
   border: 1px solid #ffffff;
   padding: 13px;
@@ -242,6 +257,37 @@ hr {
   border-radius: 12px;
   cursor: pointer;
   width: 100%;
+}
+
+.btn-track-package {
+  border: 1px solid #1a73e8;
+  background-color: #1a73e8;
+  padding: 13px;
+  color: #ffffff;
+  border-radius: 12px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.btn-history-order {
+  border: 1px solid grey;
+  padding: 13px;
+  color: #6b7280;
+  cursor: pointer;
+  border-radius: 12px;
+  width: 100%;
+}
+
+.btn-shopping {
+  padding: 13px;
+  border-radius: 12px;
+  width: 100%;
+  cursor: pointer;
+  color: #1a73e8;
+  background-color: white;
+  border: none;
+  border: 1px solid grey;
+
 }
 
 .address-card,
@@ -280,4 +326,62 @@ hr {
 .address-card p:nth-child(3),
 .shipping-info p:nth-child(2) {
   color: #6b7280;
+}
+
+.container-success {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 32px;
+}
+
+.heading-success {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 12px;
+}
+
+.success-notice {
+  margin: 24px 0;
+}
+
+.shipping-detail-info {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.product-tag-container,
+.order-status {
+  border: 1px solid red;
+  background-color: white;
+  padding: 24px;
+  border-radius: 12px;
+}
+
+.product-tag {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.shipping-method-info,
+.shipping-address-info {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.status-success,
+.shipping-status,
+.status-package,
+.shipped-package {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  margin: 12px;
 }

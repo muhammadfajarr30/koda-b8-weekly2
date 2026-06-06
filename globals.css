@@ -10,15 +10,15 @@ body {
   font-family: "Inter", sans-serif;
 }
 
-header,
+/* header,
 nav,
 section:not(.jumbo-carousel),
 footer {
   padding: 16px 224px;
-}
+} */
 
 hr {
-  margin: 0 -224px;
+  margin: 0 -224px; 
   border: none;
   border-top: 1px solid #0000001a;
 }
