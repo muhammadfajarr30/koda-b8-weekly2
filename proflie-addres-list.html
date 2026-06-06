@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="css/profile.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <div class="container gap-8">
+        <aside class="sidebar">
+          <div class="profile-card">
+            <div class="avatar"><p>B</p></div>
+
+            <div class="profile-info">
+              <h3>Budi Santoso</h3>
+              <p>budi@email.com</p>
+            </div>
+
+            <hr />
+
+            <div class="profile-stats">
+              <div>
+                <strong>2</strong>
+                <span>Pesanan</span>
+              </div>
+
+              <div>
+                <strong>0</strong>
+                <span>Wishlist</span>
+              </div>
+            </div>
+          </div>
+
+          <nav class="menu">
+            <div>
+              <img src="images/shopping-icon.svg" alt=" " /><a href=""
+                >Pesanan Saya</a
+              >
+            </div>
+            <div>
+              <img src="images/heart-grey.svg" alt=" " /><a href="">Wishlist</a>
+            </div>
+            <div>
+              <img src="images/map.svg" alt=" " /><a href="">Alamat Saya</a>
+            </div>
+            <div>
+              <img src="images/credit-card.svg" alt=" " /><a href=""
+                >Metode Pembayaran</a
+              >
+            </div>
+            <div>
+              <img src="images/tool.svg" alt=" " /><a href=""
+                >Pengaturan Profil</a
+              >
+            </div>
+            <div>
+              <img src="images/log-out.svg" alt=" " /><a href="" class="logout"
+                >Keluar</a
+              >
+            </div>
+          </nav>
+        </aside>
+        <section class="order-status-info d-flex flex-column gap-6">
+          <div class="title d-flex justify-between">
+            <h2>Alamat Saya</h2>
+            <button class="btn-add-address">+ Tambah Alamat</button>
+          </div>
+          <div class="d-flex flex-column gap-5">
+            <div class="address-list">
+              <div class="address-title d-flex w-100 justify-between">
+                <div class="d-flex gap-2 items-center">
+                  <h4>Rumah (utama)</h4>
+                  <span class="address-status">Utama</span>
+                </div>
+                <div class="btn-group">
+                  <button class="btn-edit">
+                    <img src="images/edit.svg" alt="" />
+                  </button>
+                  <button class="btn-trash">
+                    <img src="images/trash-red.svg" alt="" />
+                  </button>
+                </div>
+              </div>
+              <div class="address-detail">
+                <div>
+                  <p>Budi Santoso · 0812-3456-7890</p>
+                  <p>Jl. Kebon Jeruk No. 15, RT.003/RW.002</p>
+                  <p>Jakarta Barat, DKI Jakarta 11530</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex flex-column gap-5">
+            <div class="address-list">
+              <div class="address-title d-flex w-100 justify-between">
+                <div class="d-flex gap-2 items-center">
+                  <h4>Kantor</h4>
+                </div>
+                <div class="btn-group">
+                  <button class="btn-edit">
+                    <img src="images/edit.svg" alt="" />
+                  </button>
+                  <button class="btn-trash">
+                    <img src="images/trash-red.svg" alt="" />
+                  </button>
+                </div>
+              </div>
+              <div class="address-detail">
+                <div>
+                  <p>Budi Santoso · 0812-3456-7890</p>
+                  <p>Jl. Sudirman Kav. 52-53</p>
+                  <p>Jakarta Selatan, DKI Jakarta 12190</p>
+                </div>
+                <button class="btn-set-address">Jadikan Alamat Utama</button>
+              </div>
+            </div>
+            <div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>
