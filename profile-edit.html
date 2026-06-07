@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="css/profile.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <div class="container gap-8">
+        <aside class="sidebar">
+          <div class="profile-card">
+            <div class="avatar"><p>B</p></div>
+
+            <div class="profile-info">
+              <h3>Budi Santoso</h3>
+              <p>budi@email.com</p>
+            </div>
+
+            <hr />
+
+            <div class="profile-stats">
+              <div>
+                <strong>2</strong>
+                <span>Pesanan</span>
+              </div>
+
+              <div>
+                <strong>0</strong>
+                <span>Wishlist</span>
+              </div>
+            </div>
+          </div>
+
+          <nav class="menu">
+            <div>
+              <img src="images/shopping-icon.svg" alt=" " /><a href=""
+                >Pesanan Saya</a
+              >
+            </div>
+            <div>
+              <img src="images/heart-grey.svg" alt=" " /><a href="">Wishlist</a>
+            </div>
+            <div>
+              <img src="images/map.svg" alt=" " /><a href="">Alamat Saya</a>
+            </div>
+            <div>
+              <img src="images/credit-card.svg" alt=" " /><a href=""
+                >Metode Pembayaran</a
+              >
+            </div>
+            <div>
+              <img src="images/tool.svg" alt=" " /><a href=""
+                >Pengaturan Profil</a
+              >
+            </div>
+            <div>
+              <img src="images/log-out.svg" alt=" " /><a href="" class="logout"
+                >Keluar</a
+              >
+            </div>
+          </nav>
+        </aside>
+        <section class="order-status-info d-flex flex-column gap-6">
+          <div class="title d-flex items-center justify-between">
+            <h2>Pengaturan Profil</h2>
+            <button class="btn-save-profile d-flex items-center gap-2">
+              <img src="/images/edit.svg" alt="" />Simpan
+            </button>
+          </div>
+          <div class="profile-form d-flex flex-column gap-5">
+            <div class="profile-image d-flex items-center gap-4">
+              <div class="avatar"><p>B</p></div>
+              <button>Ganti Foto Profil</button>
+            </div>
+            <form class="d-flex flex-column gap-4">
+              <div class="label-input d-flex flex-column">
+                <label for="fullname">Nama Lengkap</label
+                ><input type="text" id="fullname" name="fullname" />
+              </div>
+              <div class="label-input d-flex flex-column">
+                <label for="email">Email</label
+                ><input type="email" id="email" name="email" />
+              </div>
+              <div class="label-input d-flex flex-column">
+                <label for="telephone">Nomor Telepon</label
+                ><input type="text" id="telephone" name="telephone" />
+              </div>
+              <div class="label-input d-flex flex-column">
+                <label for="birth-date">Tanggal Lahir</label
+                ><input type="date" id="birth-date" name="birth-date" />
+              </div>
+              <div class="label-input d-flex flex-column">
+                <label for="gender">Jenis Kelamin</label
+                ><input type="text" id="gender" />
+              </div>
+            </form>
+          </div>
+          <div class="account-security">
+            <h4>Keamanan Akun</h4>
+            <div class="d-flex flex-column gap-3">
+              <a class="security-link" href="">Ubah Kata Sandi</a>
+              <a class="security-link" href="">Aktifkan Verifikasi 2 Langkah</a>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>
