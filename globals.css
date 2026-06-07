@@ -18,7 +18,7 @@ footer {
 } */
 
 hr {
-  margin: 0 -224px; 
+  margin: 0 -224px;
   border: none;
   border-top: 1px solid #0000001a;
 }
@@ -326,6 +326,10 @@ footer {
   justify-content: center;
 }
 
+.flex-row {
+  flex-direction: row;
+}
+
 .flex-column {
   flex-direction: column;
 }
@@ -335,9 +339,8 @@ footer {
 }
 
 .justify-between {
-  justify-content:  space-between;
+  justify-content: space-between;
 }
-
 
 .gap-1 {
   gap: 0.25rem; /* 4px */

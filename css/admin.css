@@ -1,0 +1,158 @@
+.layout {
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 280px;
+  height: 100vh;
+  background-color: #111828;
+  flex-shrink: 0;
+  border-right: 1px solid red;
+}
+
+.content {
+  margin-left: 280px;
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+}
+
+.admin-navbar {
+  position: fixed;
+  top: 0;
+  left: 280px;
+  right: 0;
+  z-index: 100;
+  padding: 20px 24px;
+  flex-shrink: 0;
+  background: white;
+  border-bottom: 1px solid #0000001a;
+}
+
+.admin-navbar button {
+  background-color: transparent;
+  border: none;
+}
+
+.avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  width: 32px;
+  height: 32px;
+  background-color: #000080;
+  border-radius: 50%;
+}
+
+.username {
+  color: #111827;
+}
+
+.dashboard {
+  flex: 1;
+  background-color: #f8f9fb;
+  gap: 24px;
+  padding: 24px;
+}
+
+.stat-container {
+  gap: 16px;
+}
+
+.card {
+  background: white;
+  border-radius: 20px;
+  border: 1px solid red;
+  min-height: 150px;
+  padding: 24px;
+}
+
+.stat-card {
+  flex: 1;
+}
+
+.bottom-grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 24px;
+}
+
+.revenue-chart {
+  grid-column: span 8;
+  min-height: 400px;
+}
+
+.category-chart {
+  grid-column: span 4;
+}
+
+.latest-orders,
+.best-products {
+  grid-column: span 6;
+  min-height: 200px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: white;
+  padding: 16px;
+  border-bottom: 1px solid grey;
+}
+
+.logo-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 36px;
+  height: 36px;
+  background-color: #1a73e8;
+  border-radius: 12px;
+  color: white;
+  font-weight: bold;
+}
+
+.sidebar-menu {
+  padding: 16px 8px;
+}
+
+.sidebar-menu a, .back-to-shop a {
+  padding: 10px 12px;
+  gap: 16px;
+  text-decoration: none;
+  color: #99a1af;
+}
+
+.sidebar-menu .active {
+  background-color: #1a73e8;
+  color: white;
+  border-radius: 12px;
+}
+
+.title {
+  margin-bottom: 12px;
+}
+
+.detail-items {
+  padding: 6px 0;
+  border-bottom: 1px solid #99a1af;
+}
+
+.shipped {
+  padding: 3px 12px;
+  background-color: #ebfff3;
+  color: #008236;
+  border-radius: 8px;
+}
+
+.back-to-shop {
+  margin-top: auto;
+  border-top: 1px solid #99a1af;
+  padding: 16px;
+}
