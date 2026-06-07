@@ -9,171 +9,180 @@
   </head>
   <body>
     <header>
-      <div class="topbar relative">
-        <span class="left-content">
+      <div class="topbar d-flex items-center justify-between">
+        <div class="">
           <img class="v-middle" src="./images/location.svg" alt="" />
           <span class="v-middle">Kirim ke: Jakarta Selatan</span>
-        </span>
-        <span class="right-content absolute">
+        </div>
+        <div class="d-flex items-center gap-3">
           <p>📞 0800-1234-5678 (Gratis)</p>
           <p>🚀 Gratis ongkir di atas Rp 100.000</p>
-        </span>
+        </div>
       </div>
     </header>
+
     <nav>
-      <div class="top-nav">
+      <div class="top-nav d-flex items-center gap-3">
         <a
-          class="icon-beli-mudah d-inline-block v-middle"
+          class="icon-beli-mudah d-flex items-center"
           href="/landing-page.html">
-          <div class="icon d-inline-block v-middle">B</div>
-          <span class="d-inline-block v-middle">BeliMudah</span>
+          <div class="icon">B</div>
+          <span class="">BeliMudah</span>
         </a>
-        <div class="search-box d-inline-block v-middle">
+        <div class="search-box">
           <input type="text" placeholder="Cari produk, merek, kategori..." />
         </div>
-        <ul class="nav-items d-inline-block v-middle text-right">
-          <li class="nav-item d-inline-block v-middle">
-            <img class="v-middle" src="./images/bell.svg" alt="" />
+        <ul class="nav-items d-flex items-center">
+          <li class="nav-item">
+            <button class="d-flex items-center">
+              <img class="v-middle" src="./images/bell.svg" alt="" />
+            </button>
           </li>
-          <li class="nav-item d-inline-block v-middle">
-            <img class="v-middle" src="./images/profile.svg" alt="" />
-            <span class="v-middle">Budi</span>
+          <li class="nav-item">
+            <button class="d-flex items-center gap-2">
+              <img src="./images/profile.svg" alt="" />
+              <span>Budi</span>
+            </button>
           </li>
-          <li class="nav-item d-inline-block v-middle">
-            <img class="v-middle" src="./images/heart.svg" alt="" />
+          <li class="nav-item">
+            <button class="d-flex items-center">
+              <img class="v-middle" src="./images/heart.svg" alt="" />
+            </button>
           </li>
-          <li class="nav-item d-inline-block v-middle">
-            <img class="v-middle" src="./images/cart.svg" alt="" />
+          <li class="nav-item">
+            <button class="d-flex items-center">
+              <img class="v-middle" src="./images/cart.svg" alt="" />
+            </button>
           </li>
         </ul>
       </div>
       <hr />
+
       <div class="btm-nav">
-        <ul class="nav-items">
-          <li class="nav-item d-inline-block v-middle">
-            <img class="v-middle" src="images/burger-menu.svg" alt="" />
-            <span class="v-middle">Semua Kategori</span>
-            <img class="v-middle" src="./images/dropdown.svg" alt="" />
+        <ul class="d-flex">
+          <li class="nav-item d-flex items-center gap-2">
+            <img src="images/burger-menu.svg" alt="" />
+            <span>Semua Kategori</span>
+            <img src="./images/dropdown.svg" alt="" />
           </li>
-          <li class="nav-item d-inline-block v-middle text-gray">
-            <span class="v-middle">💻</span>
-            <span class="v-middle">Elektronik</span>
+          <li class="nav-item d-flex items-center gap-2 text-gray">
+            <span>💻</span>
+            <span>Elektronik</span>
           </li>
-          <li class="nav-item d-inline-block v-middle text-gray">
-            <span class="v-middle">👗</span>
-            <span class="v-middle">Fashion</span>
+          <li class="nav-item d-flex items-center gap-2 text-gray">
+            <span>👗</span>
+            <span>Fashion</span>
           </li>
-          <li class="nav-item d-inline-block v-middle text-gray">
-            <span class="v-middle">🏠</span>
-            <span class="v-middle">Rumah & Dapur</span>
+          <li class="nav-item d-flex items-center gap-2 text-gray">
+            <span>🏠</span>
+            <span>Rumah & Dapur</span>
           </li>
-          <li class="nav-item d-inline-block v-middle text-gray">
-            <span class="v-middle">💄</span>
-            <span class="v-middle">Kecantikan</span>
+          <li class="nav-item d-flex items-center gap-2 text-gray">
+            <span>💄</span>
+            <span>Kecantikan</span>
           </li>
-          <li class="nav-item d-inline-block v-middle text-gray">
-            <span class="v-middle">⚽</span>
-            <span class="v-middle">Olahraga</span>
+          <li class="nav-item d-flex items-center gap-2 text-gray">
+            <span>⚽</span>
+            <span>Olahraga</span>
           </li>
-          <li class="nav-item d-inline-block v-middle text-gray">
-            <span class="v-middle">📚</span>
-            <span class="v-middle">Buku & Alat Tulis</span>
+          <li class="nav-item d-flex items-center gap-2 text-gray">
+            <span>📚</span>
+            <span>Buku & Alat Tulis</span>
           </li>
-          <li class="nav-item d-inline-block v-middle promo">
-            <span class="v-middle">🔥</span>
-            <span class="v-middle">Promo</span>
+          <li class="nav-item d-flex items-center gap-2 promo">
+            <span>🔥</span>
+            <span>Promo</span>
           </li>
         </ul>
       </div>
     </nav>
 
-    <main>
-      <section class="jumbo-carousel relative table text-white">
-        <button class="carousel-btn carousel-btn-left bg-white">
+    <main class="landing-page-content">
+      <section class="jumbo-carousel d-flex relative text-white">
+        <button
+          class="carousel-btn carousel-btn-left d-flex items-center justify-center">
           <img src="./images/arrow-left.svg" alt="" />
         </button>
-        <div class="carousel-item carousel-item1 table-cell cell-middle">
+        <div
+          class="carousel-item carousel-item1 d-flex flex-column justify-center">
           <h1>Elektronik Pilihan, Harga Spesial</h1>
           <p>
             Laptop, smartphone, headphone, dan masih banyak lagi dengan diskon
             hingga 40%
           </p>
-          <button class="text-blue bg-white d-inline-block">
-            <span class="d-inline-block v-middle">Lihat Promo</span
-            ><img
-              class="d-inline-block v-middle"
-              src="images/arrow-right.svg"
-              alt="" />
+          <button class="promo-btn d-flex items-center bg-white text-blue">
+            <span>Lihat Promo</span>
+            <img src="./images/arrow-right.svg" alt="" />
           </button>
         </div>
-        <div class="carousel-item carousel-item2 table-cell cell-middle">
+        <div class="carousel-item carousel-item2">
           <img src="./images/carousel-img1.png" alt="" />
         </div>
-        <button class="carousel-btn carousel-btn-right bg-white">
+        <button
+          class="carousel-btn carousel-btn-right d-flex items-center justify-center">
           <img src="./images/arrow-right1.svg" alt="" />
         </button>
       </section>
-      <section class="category-prod">
-        <div class="label relative">
-          <h4 class="d-inline-block v-middle">Belanja Berdasarkan Kategori</h4>
-          <a class="absolute right-0 v-middle" href=""
-            >Lihat semua
+
+      <section class="category-prod d-flex flex-column gap-4">
+        <div class="label d-flex justify-between">
+          <h4>Belanja Berdasarkan Kategori</h4>
+          <a href="">
+            Lihat semua
             <img src="./images/arrow-right-blue.svg" alt="" />
           </a>
         </div>
-        <div class="category-prod-container table">
-          <div class="category category1 table-cell bg-white">
+        <div class="category-prod-container">
+          <div class="category category1 bg-white">
             <img src="./images/Elektronik.png" alt="" />
             <p>Elektronik</p>
             <p class="text-gray">5 produk</p>
           </div>
-          <div class="category category2 table-cell bg-white">
+          <div class="category category2 bg-white">
             <img src="./images/Elektronik.png" alt="" />
             <p>Elektronik</p>
             <p class="text-gray">5 produk</p>
           </div>
-          <div class="category category3 table-cell bg-white">
+          <div class="category category3 bg-white">
             <img src="./images/Elektronik.png" alt="" />
             <p>Elektronik</p>
             <p class="text-gray">5 produk</p>
           </div>
-          <div class="category category4 table-cell bg-white">
+          <div class="category category4 bg-white">
             <img src="./images/Elektronik.png" alt="" />
             <p>Elektronik</p>
             <p class="text-gray">5 produk</p>
           </div>
-          <div class="category category5 table-cell bg-white">
+          <div class="category category5 bg-white">
             <img src="./images/Elektronik.png" alt="" />
             <p>Elektronik</p>
             <p class="text-gray">5 produk</p>
           </div>
-          <div class="category category6 table-cell bg-white">
+          <div class="category category6 bg-white">
             <img src="./images/Elektronik.png" alt="" />
             <p>Elektronik</p>
             <p class="text-gray">5 produk</p>
           </div>
         </div>
       </section>
+
       <section class="flash-deal">
-        <div class="relative">
-          <span class="flash-deal-icon bg-red text-white"
-            ><img src="./images/flash.svg" alt="" />Flash Deal</span
-          >
-          <span
-            ><img
-              class="d-inline-block v-middle"
-              src="./images/clock.svg"
-              alt="" />
-            <span class="d-inline-block v-middle">
-              Berakhir dalam: 05 : 21 : 38
+        <div class="d-flex items-center justify-between">
+          <div>
+            <span class="flash-deal-icon bg-red text-white"
+              ><img src="./images/flash.svg" alt="" />Flash Deal</span
+            >
+            <span
+              ><img src="./images/clock.svg" alt="" />
+              <span> Berakhir dalam: 05 : 21 : 38 </span>
             </span>
-          </span>
-          <a class="absolute right-0 v-middle" href=""
+          </div>
+          <a href=""
             >Lihat semua
             <img src="./images/arrow-right-blue.svg" alt="" />
           </a>
         </div>
-        <div class="flash-sale-items table">
+        <div class="flash-sale-items">
           <div class="item-col flash-item1 bg-white table-cell">
             <div class="item-thumbnail relative">
               <span class="disc-icon bg-red text-white absolute">-31%</span
@@ -197,7 +206,7 @@
               </div>
             </div>
           </div>
-          <div class="item-col flash-item1 bg-white table-cell">
+          <div class="item-col flash-item1 bg-white">
             <div class="item-thumbnail relative">
               <span class="disc-icon bg-red text-white absolute">-31%</span
               ><img
@@ -220,7 +229,7 @@
               </div>
             </div>
           </div>
-          <div class="item-col flash-item1 bg-white table-cell">
+          <div class="item-col flash-item1 bg-white">
             <div class="item-thumbnail relative">
               <span class="disc-icon bg-red text-white absolute">-31%</span
               ><img
@@ -243,7 +252,7 @@
               </div>
             </div>
           </div>
-          <div class="item-col flash-item1 bg-white table-cell">
+          <div class="item-col flash-item1 bg-white">
             <div class="item-thumbnail relative">
               <span class="disc-icon bg-red text-white absolute">-31%</span
               ><img
@@ -268,16 +277,17 @@
           </div>
         </div>
       </section>
-      <section class="deals-container table">
-        <div class="deal deal-1 table-cell relative">
+
+      <section class="deals-container d-flex">
+        <div class="deal deal-1 relative">
           <img src="images/sport.png" alt="" />
-          <div class="deal-content d-block absolute text-white">
+          <div class="deal-content absolute text-white">
             <p>Fashion Wanita</p>
             <h3>Diskon s/d 50%</h3>
             <button>Belanja Sekarang</button>
           </div>
         </div>
-        <div class="deal deal-2 d-block table-cell relative">
+        <div class="deal deal-2 relative">
           <img src="images/coffee.png" alt="" />
           <div class="deal-content absolute text-white">
             <p>Elektronik Pilihan</p>
@@ -286,158 +296,142 @@
           </div>
         </div>
       </section>
-      <section>
-        <div class="label relative">
-          <img src="./images/stonk-up.svg" alt="" />
-          <h4 class="d-inline-block v-middle">Belanja Berdasarkan Kategori</h4>
-          <a class="absolute right-0 v-middle" href=""
-            >Lihat semua
+
+      <section class="shop-by-category">
+        <div class="label d-flex items-center justify-between">
+          <div class="d-flex items-center gap-3">
+            <img src="./images/stonk-up.svg" alt="" />
+            <h4>Produk Terbaru</h4>
+          </div>
+          <a href="">
+            Lihat semua
             <img src="./images/arrow-right-blue.svg" alt="" />
           </a>
         </div>
-        <div class="flash-sale-items table">
-          <div class="row">
-            <div class="item-col bg-white table-cell">
-              <div class="item-thumbnail relative">
-                <span class="disc-icon bg-red text-white absolute">-31%</span>
-                <img src="./images/Headphone Wireless Premium.png" alt="" />
-              </div>
-              <div class="item-description">
-                <p class="text-gray">Sound Wave</p>
-                <p>Headphone Wireless Premium</p>
-                <div class="item-rating">
-                  <img src="./images/five-star.png" alt="" /><span
-                    class="text-gray"
-                    >4.8 (512)</span
-                  >
-                </div>
-                <div class="item-price">
-                  <span>Rp.450.000</span>
-                  <span class="text-gray text-decoration-line">Rp.650.000</span>
-                </div>
-              </div>
+        <div class="flash-sale-items">
+          <div class="item-col bg-white">
+            <div class="item-thumbnail relative">
+              <span class="disc-icon bg-red text-white absolute">-31%</span>
+              <img src="./images/Headphone Wireless Premium.png" alt="" />
             </div>
-            <div class="item-col bg-white table-cell">
-              <div class="item-thumbnail relative">
-                <span class="disc-icon bg-red text-white absolute">-31%</span>
-                <img src="./images/Headphone Wireless Premium.png" alt="" />
+            <div class="item-description">
+              <p class="text-gray">Sound Wave</p>
+              <p>Headphone Wireless Premium</p>
+              <div class="item-rating">
+                <img src="./images/five-star.png" alt="" />
+                <span class="text-gray">4.8 (512)</span>
               </div>
-              <div class="item-description">
-                <p class="text-gray">Sound Wave</p>
-                <p>Headphone Wireless Premium</p>
-                <div class="item-rating">
-                  <img src="./images/five-star.png" alt="" /><span
-                    class="text-gray"
-                    >4.8 (512)</span
-                  >
-                </div>
-                <div class="item-price">
-                  <span>Rp.450.000</span>
-                  <span class="text-gray text-decoration-line">Rp.650.000</span>
-                </div>
-              </div>
-            </div>
-            <div class="item-col bg-white table-cell">
-              <div class="item-thumbnail relative">
-                <span class="disc-icon bg-red text-white absolute">-31%</span>
-                <img src="./images/Headphone Wireless Premium.png" alt="" />
-              </div>
-              <div class="item-description">
-                <p class="text-gray">Sound Wave</p>
-                <p>Headphone Wireless Premium</p>
-                <div class="item-rating">
-                  <img src="./images/five-star.png" alt="" /><span
-                    class="text-gray"
-                    >4.8 (512)</span
-                  >
-                </div>
-                <div class="item-price">
-                  <span>Rp.450.000</span>
-                  <span class="text-gray text-decoration-line">Rp.650.000</span>
-                </div>
-              </div>
-            </div>
-            <div class="item-col bg-white table-cell">
-              <div class="item-thumbnail relative">
-                <span class="disc-icon bg-red text-white absolute">-31%</span>
-                <img src="./images/Headphone Wireless Premium.png" alt="" />
-              </div>
-              <div class="item-description">
-                <p class="text-gray">Sound Wave</p>
-                <p>Headphone Wireless Premium</p>
-                <div class="item-rating">
-                  <img src="./images/five-star.png" alt="" /><span
-                    class="text-gray"
-                    >4.8 (512)</span
-                  >
-                </div>
-                <div class="item-price">
-                  <span>Rp.450.000</span>
-                  <span class="text-gray text-decoration-line">Rp.650.000</span>
-                </div>
+              <div class="item-price">
+                <span>Rp.450.000</span>
+                <span class="text-gray text-decoration-line"> Rp.650.000 </span>
               </div>
             </div>
           </div>
-
-          <div class="row">
-            <div class="item-col bg-white table-cell">
-              <div class="item-thumbnail relative">
-                <span class="disc-icon bg-red text-white absolute">-31%</span>
-                <img src="./images/Headphone Wireless Premium.png" alt="" />
+          <div class="item-col bg-white">
+            <div class="item-thumbnail relative">
+              <span class="disc-icon bg-red text-white absolute">-31%</span>
+              <img src="./images/Headphone Wireless Premium.png" alt="" />
+            </div>
+            <div class="item-description">
+              <p class="text-gray">Sound Wave</p>
+              <p>Headphone Wireless Premium</p>
+              <div class="item-rating">
+                <img src="./images/five-star.png" alt="" />
+                <span class="text-gray">4.8 (512)</span>
               </div>
-              <div class="item-description">
-                <p class="text-gray">Sound Wave</p>
-                <p>Headphone Wireless Premium</p>
-                <div class="item-rating">
-                  <img src="./images/five-star.png" alt="" /><span
-                    class="text-gray"
-                    >4.8 (512)</span
-                  >
-                </div>
-                <div class="item-price">
-                  <span>Rp.450.000</span>
-                  <span class="text-gray text-decoration-line">Rp.650.000</span>
-                </div>
+              <div class="item-price">
+                <span>Rp.450.000</span>
+                <span class="text-gray text-decoration-line"> Rp.650.000 </span>
               </div>
             </div>
-            <div class="item-col bg-white table-cell">
-              <div class="item-thumbnail relative">
-                <span class="disc-icon bg-red text-white absolute">-31%</span>
-                <img src="./images/Headphone Wireless Premium.png" alt="" />
+          </div>
+          <div class="item-col bg-white">
+            <div class="item-thumbnail relative">
+              <span class="disc-icon bg-red text-white absolute">-31%</span>
+              <img src="./images/Headphone Wireless Premium.png" alt="" />
+            </div>
+            <div class="item-description">
+              <p class="text-gray">Sound Wave</p>
+              <p>Headphone Wireless Premium</p>
+              <div class="item-rating">
+                <img src="./images/five-star.png" alt="" />
+                <span class="text-gray">4.8 (512)</span>
               </div>
-              <div class="item-description">
-                <p class="text-gray">Sound Wave</p>
-                <p>Headphone Wireless Premium</p>
-                <div class="item-rating">
-                  <img src="./images/five-star.png" alt="" /><span
-                    class="text-gray"
-                    >4.8 (512)</span
-                  >
-                </div>
-                <div class="item-price">
-                  <span>Rp.450.000</span>
-                  <span class="text-gray text-decoration-line">Rp.650.000</span>
-                </div>
+              <div class="item-price">
+                <span>Rp.450.000</span>
+                <span class="text-gray text-decoration-line"> Rp.650.000 </span>
               </div>
             </div>
-            <div class="item-col bg-white table-cell">
-              <div class="item-thumbnail relative">
-                <span class="disc-icon bg-red text-white absolute">-31%</span>
-                <img src="./images/Headphone Wireless Premium.png" alt="" />
+          </div>
+          <div class="item-col bg-white">
+            <div class="item-thumbnail relative">
+              <span class="disc-icon bg-red text-white absolute">-31%</span>
+              <img src="./images/Headphone Wireless Premium.png" alt="" />
+            </div>
+            <div class="item-description">
+              <p class="text-gray">Sound Wave</p>
+              <p>Headphone Wireless Premium</p>
+              <div class="item-rating">
+                <img src="./images/five-star.png" alt="" />
+                <span class="text-gray">4.8 (512)</span>
               </div>
-              <div class="item-description">
-                <p class="text-gray">Sound Wave</p>
-                <p>Headphone Wireless Premium</p>
-                <div class="item-rating">
-                  <img src="./images/five-star.png" alt="" /><span
-                    class="text-gray"
-                    >4.8 (512)</span
-                  >
-                </div>
-                <div class="item-price">
-                  <span>Rp.450.000</span>
-                  <span class="text-gray text-decoration-line">Rp.650.000</span>
-                </div>
+              <div class="item-price">
+                <span>Rp.450.000</span>
+                <span class="text-gray text-decoration-line"> Rp.650.000 </span>
+              </div>
+            </div>
+          </div>
+          <div class="item-col bg-white">
+            <div class="item-thumbnail relative">
+              <span class="disc-icon bg-red text-white absolute">-31%</span>
+              <img src="./images/Headphone Wireless Premium.png" alt="" />
+            </div>
+            <div class="item-description">
+              <p class="text-gray">Sound Wave</p>
+              <p>Headphone Wireless Premium</p>
+              <div class="item-rating">
+                <img src="./images/five-star.png" alt="" />
+                <span class="text-gray">4.8 (512)</span>
+              </div>
+              <div class="item-price">
+                <span>Rp.450.000</span>
+                <span class="text-gray text-decoration-line"> Rp.650.000 </span>
+              </div>
+            </div>
+          </div>
+          <div class="item-col bg-white">
+            <div class="item-thumbnail relative">
+              <span class="disc-icon bg-red text-white absolute">-31%</span>
+              <img src="./images/Headphone Wireless Premium.png" alt="" />
+            </div>
+            <div class="item-description">
+              <p class="text-gray">Sound Wave</p>
+              <p>Headphone Wireless Premium</p>
+              <div class="item-rating">
+                <img src="./images/five-star.png" alt="" />
+                <span class="text-gray">4.8 (512)</span>
+              </div>
+              <div class="item-price">
+                <span>Rp.450.000</span>
+                <span class="text-gray text-decoration-line"> Rp.650.000 </span>
+              </div>
+            </div>
+          </div>
+          <div class="item-col bg-white">
+            <div class="item-thumbnail relative">
+              <span class="disc-icon bg-red text-white absolute">-31%</span>
+              <img src="./images/Headphone Wireless Premium.png" alt="" />
+            </div>
+            <div class="item-description">
+              <p class="text-gray">Sound Wave</p>
+              <p>Headphone Wireless Premium</p>
+              <div class="item-rating">
+                <img src="./images/five-star.png" alt="" />
+                <span class="text-gray">4.8 (512)</span>
+              </div>
+              <div class="item-price">
+                <span>Rp.450.000</span>
+                <span class="text-gray text-decoration-line"> Rp.650.000 </span>
               </div>
             </div>
           </div>
@@ -445,167 +439,164 @@
       </section>
 
       <section>
-        <div class="label relative">
-          <h4 class="d-inline-block v-middle">Produk Unggulan</h4>
-          <a class="absolute right-0 v-middle" href=""
+        <div class="label d-flex items-center justify-between">
+          <h4>Produk Unggulan</h4>
+          <a href=""
             >Lihat semua
             <img src="./images/arrow-right-blue.svg" alt="" />
           </a>
         </div>
-        <div class="flash-sale-items table">
-          <div class="row">
-            <div class="item-col bg-white table-cell">
-              <div class="item-thumbnail relative">
-                <span class="disc-icon bg-red text-white absolute">-31%</span>
-                <img src="./images/Headphone Wireless Premium.png" alt="" />
+        <div class="flash-sale-items">
+          <div class="item-col bg-white">
+            <div class="item-thumbnail relative">
+              <span class="disc-icon bg-red text-white absolute">-31%</span>
+              <img src="./images/Headphone Wireless Premium.png" alt="" />
+            </div>
+            <div class="item-description">
+              <p class="text-gray">Sound Wave</p>
+              <p>Headphone Wireless Premium</p>
+              <div class="item-rating">
+                <img src="./images/five-star.png" alt="" /><span
+                  class="text-gray"
+                  >4.8 (512)</span
+                >
               </div>
-              <div class="item-description">
-                <p class="text-gray">Sound Wave</p>
-                <p>Headphone Wireless Premium</p>
-                <div class="item-rating">
-                  <img src="./images/five-star.png" alt="" /><span
-                    class="text-gray"
-                    >4.8 (512)</span
-                  >
-                </div>
-                <div class="item-price">
-                  <span>Rp.450.000</span>
-                  <span class="text-gray text-decoration-line">Rp.650.000</span>
-                </div>
+              <div class="item-price">
+                <span>Rp.450.000</span>
+                <span class="text-gray text-decoration-line">Rp.650.000</span>
               </div>
             </div>
-            <div class="item-col bg-white table-cell">
-              <div class="item-thumbnail relative">
-                <span class="disc-icon bg-red text-white absolute">-31%</span>
-                <img src="./images/Headphone Wireless Premium.png" alt="" />
+          </div>
+          <div class="item-col bg-white">
+            <div class="item-thumbnail relative">
+              <span class="disc-icon bg-red text-white absolute">-31%</span>
+              <img src="./images/Headphone Wireless Premium.png" alt="" />
+            </div>
+            <div class="item-description">
+              <p class="text-gray">Sound Wave</p>
+              <p>Headphone Wireless Premium</p>
+              <div class="item-rating">
+                <img src="./images/five-star.png" alt="" /><span
+                  class="text-gray"
+                  >4.8 (512)</span
+                >
               </div>
-              <div class="item-description">
-                <p class="text-gray">Sound Wave</p>
-                <p>Headphone Wireless Premium</p>
-                <div class="item-rating">
-                  <img src="./images/five-star.png" alt="" /><span
-                    class="text-gray"
-                    >4.8 (512)</span
-                  >
-                </div>
-                <div class="item-price">
-                  <span>Rp.450.000</span>
-                  <span class="text-gray text-decoration-line">Rp.650.000</span>
-                </div>
+              <div class="item-price">
+                <span>Rp.450.000</span>
+                <span class="text-gray text-decoration-line">Rp.650.000</span>
               </div>
             </div>
-            <div class="item-col bg-white table-cell">
-              <div class="item-thumbnail relative">
-                <span class="disc-icon bg-red text-white absolute">-31%</span>
-                <img src="./images/Headphone Wireless Premium.png" alt="" />
+          </div>
+          <div class="item-col bg-white">
+            <div class="item-thumbnail relative">
+              <span class="disc-icon bg-red text-white absolute">-31%</span>
+              <img src="./images/Headphone Wireless Premium.png" alt="" />
+            </div>
+            <div class="item-description">
+              <p class="text-gray">Sound Wave</p>
+              <p>Headphone Wireless Premium</p>
+              <div class="item-rating">
+                <img src="./images/five-star.png" alt="" /><span
+                  class="text-gray"
+                  >4.8 (512)</span
+                >
               </div>
-              <div class="item-description">
-                <p class="text-gray">Sound Wave</p>
-                <p>Headphone Wireless Premium</p>
-                <div class="item-rating">
-                  <img src="./images/five-star.png" alt="" /><span
-                    class="text-gray"
-                    >4.8 (512)</span
-                  >
-                </div>
-                <div class="item-price">
-                  <span>Rp.450.000</span>
-                  <span class="text-gray text-decoration-line">Rp.650.000</span>
-                </div>
+              <div class="item-price">
+                <span>Rp.450.000</span>
+                <span class="text-gray text-decoration-line">Rp.650.000</span>
               </div>
             </div>
-            <div class="item-col bg-white table-cell">
-              <div class="item-thumbnail relative">
-                <span class="disc-icon bg-red text-white absolute">-31%</span>
-                <img src="./images/Headphone Wireless Premium.png" alt="" />
+          </div>
+          <div class="item-col bg-white">
+            <div class="item-thumbnail relative">
+              <span class="disc-icon bg-red text-white absolute">-31%</span>
+              <img src="./images/Headphone Wireless Premium.png" alt="" />
+            </div>
+            <div class="item-description">
+              <p class="text-gray">Sound Wave</p>
+              <p>Headphone Wireless Premium</p>
+              <div class="item-rating">
+                <img src="./images/five-star.png" alt="" /><span
+                  class="text-gray"
+                  >4.8 (512)</span
+                >
               </div>
-              <div class="item-description">
-                <p class="text-gray">Sound Wave</p>
-                <p>Headphone Wireless Premium</p>
-                <div class="item-rating">
-                  <img src="./images/five-star.png" alt="" /><span
-                    class="text-gray"
-                    >4.8 (512)</span
-                  >
-                </div>
-                <div class="item-price">
-                  <span>Rp.450.000</span>
-                  <span class="text-gray text-decoration-line">Rp.650.000</span>
-                </div>
+              <div class="item-price">
+                <span>Rp.450.000</span>
+                <span class="text-gray text-decoration-line">Rp.650.000</span>
               </div>
             </div>
           </div>
 
-          <div class="row">
-            <div class="item-col bg-white table-cell">
-              <div class="item-thumbnail relative">
-                <span class="disc-icon bg-red text-white absolute">-31%</span>
-                <img src="./images/Headphone Wireless Premium.png" alt="" />
+          <div class="item-col bg-white">
+            <div class="item-thumbnail relative">
+              <span class="disc-icon bg-red text-white absolute">-31%</span>
+              <img src="./images/Headphone Wireless Premium.png" alt="" />
+            </div>
+            <div class="item-description">
+              <p class="text-gray">Sound Wave</p>
+              <p>Headphone Wireless Premium</p>
+              <div class="item-rating">
+                <img src="./images/five-star.png" alt="" /><span
+                  class="text-gray"
+                  >4.8 (512)</span
+                >
               </div>
-              <div class="item-description">
-                <p class="text-gray">Sound Wave</p>
-                <p>Headphone Wireless Premium</p>
-                <div class="item-rating">
-                  <img src="./images/five-star.png" alt="" /><span
-                    class="text-gray"
-                    >4.8 (512)</span
-                  >
-                </div>
-                <div class="item-price">
-                  <span>Rp.450.000</span>
-                  <span class="text-gray text-decoration-line">Rp.650.000</span>
-                </div>
+              <div class="item-price">
+                <span>Rp.450.000</span>
+                <span class="text-gray text-decoration-line">Rp.650.000</span>
               </div>
             </div>
-            <div class="item-col bg-white table-cell">
-              <div class="item-thumbnail relative">
-                <span class="disc-icon bg-red text-white absolute">-31%</span>
-                <img src="./images/Headphone Wireless Premium.png" alt="" />
+          </div>
+          <div class="item-col bg-white">
+            <div class="item-thumbnail relative">
+              <span class="disc-icon bg-red text-white absolute">-31%</span>
+              <img src="./images/Headphone Wireless Premium.png" alt="" />
+            </div>
+            <div class="item-description">
+              <p class="text-gray">Sound Wave</p>
+              <p>Headphone Wireless Premium</p>
+              <div class="item-rating">
+                <img src="./images/five-star.png" alt="" /><span
+                  class="text-gray"
+                  >4.8 (512)</span
+                >
               </div>
-              <div class="item-description">
-                <p class="text-gray">Sound Wave</p>
-                <p>Headphone Wireless Premium</p>
-                <div class="item-rating">
-                  <img src="./images/five-star.png" alt="" /><span
-                    class="text-gray"
-                    >4.8 (512)</span
-                  >
-                </div>
-                <div class="item-price">
-                  <span>Rp.450.000</span>
-                  <span class="text-gray text-decoration-line">Rp.650.000</span>
-                </div>
+              <div class="item-price">
+                <span>Rp.450.000</span>
+                <span class="text-gray text-decoration-line">Rp.650.000</span>
               </div>
             </div>
           </div>
         </div>
       </section>
+
       <section class="why-shop-section">
         <div class="bg-white why-shop-container">
           <h3 class="text-center">Kenapa belanja di BeliMudah?</h3>
-          <div class="features-container">
-            <div class="text-center d-inline-block feature-item">
+          <div class="features-container d-flex">
+            <div class="text-center feature-item">
               <span>🚚</span>
               <p class="feature-title">Gratis Ongkir</p>
               <p class="feature-desc">
                 Pembelian di atas Rp 100.000 gratis ongkir ke seluruh Indonesia
               </p>
             </div>
-            <div class="text-center d-inline-block feature-item">
+            <div class="text-center feature-item">
               <span>🔒</span>
               <p class="feature-title">Keamanan Terjamin</p>
               <p class="feature-desc">
                 Data kamu terenskripsi dengan standar keamanan tinggi
               </p>
             </div>
-            <div class="text-center d-inline-block feature-item">
+            <div class="text-center feature-item">
               <span>↩️</span>
               <p class="feature-title">Pengembalian Mudah</p>
               <p class="feature-desc">
                 Produk tidak sesuai? Kembalikan dalam 30 hari tanpa ribet
               </p>
             </div>
-            <div class="text-center d-inline-block feature-item">
+            <div class="text-center feature-item">
               <span>💬</span>
               <p class="feature-title">Layanan 24/7</p>
               <p class="feature-desc">Tim kami siap membantu kamu kapan saja</p>
@@ -617,18 +608,15 @@
 
     <footer>
       <div class="top-footer">
-        <ul class="top-footer-benefit table">
-          <li class="footer-benefit table">
-            <img
-              class="benefit-icon table-cell cell-middle"
-              src="./images/truck.svg"
-              alt="" />
-            <div class="table-cell cell-middle">
+        <ul class="top-footer-benefit d-flex space-between">
+          <li class="footer-benefit d-flex items-center gap-3">
+            <img class="benefit-icon" src="./images/truck.svg" alt="" />
+            <div class="table">
               <h5 class="text-white">Gratis Ongkir</h5>
               <span class="text-gray-dark">Pembelian di atas Rp 100.000</span>
             </div>
           </li>
-          <li class="footer-benefit table-cell cell-middle">
+          <li class="footer-benefit d-flex items-center gap-3">
             <img
               class="benefit-icon d-inline-block v-middle"
               src="./images/shield.svg"
@@ -638,7 +626,7 @@
               <span class="text-gray-dark">SSL terenskripsi 256-bit</span>
             </div>
           </li>
-          <li class="footer-benefit table-cell cell-middle">
+          <li class="footer-benefit d-flex items-center gap-3">
             <img
               class="benefit-icon d-inline-block v-middle"
               src="./images/refund.svg"
@@ -648,7 +636,7 @@
               <span class="text-gray-dark">30 hari pengembalian gratis</span>
             </div>
           </li>
-          <li class="footer-benefit table-cell cell-middle">
+          <li class="footer-benefit d-flex items-center gap-3">
             <img
               class="benefit-icon d-inline-block v-middle"
               src="./images/support.svg"
@@ -661,8 +649,9 @@
         </ul>
       </div>
       <hr class="hr-gray-dark" />
-      <div class="main-footer table">
-        <div class="footer-column table-cell cell-top">
+
+      <div class="main-footer d-flex space-between">
+        <div class="footer-column d-flex flex-column gap-3">
           <div class="icon-beli-mudah-b">
             <div class="icon d-inline-block v-middle">B</div>
             <span class="d-inline-block v-middle text-white">BeliMudah</span>
@@ -706,9 +695,9 @@
             </li>
           </ul>
         </div>
-        <div class="footer-column table-cell cell-top">
+        <div class="footer-column d-flex flex-column gap-3">
           <h4 class="text-white">Layanan</h4>
-          <ul class="list-none">
+          <ul class="list-none d-flex flex-column gap-3">
             <li>
               <a class="text-gray-dark text-decoration-none" href="#"
                 >Tentang Kami</a
@@ -732,9 +721,9 @@
             </li>
           </ul>
         </div>
-        <div class="footer-column table-cell cell-top">
+        <div class="footer-column d-flex flex-column gap-3">
           <h4 class="text-white">Bantuan</h4>
-          <ul class="list-none">
+          <ul class="list-none d-flex flex-column gap-3">
             <li>
               <a class="text-gray-dark text-decoration-none" href="#"
                 >Cara Belanja</a
@@ -760,10 +749,10 @@
             </li>
           </ul>
         </div>
-        <div class="footer-column table-cell cell-top">
+        <div class="footer-column d-flex flex-column gap-3">
           <h4 class="text-white">Kontak</h4>
-          <ul class="list-none">
-            <li class="table w-max">
+          <ul class="list-none d-flex flex-column gap-3">
+            <li class="d-flex items-center gap-2">
               <img
                 class="table-cell cell-middle"
                 src="./images/location-footer.svg"
@@ -772,7 +761,7 @@
                 Jl. Sudirman No. 1, Jakarta Selatan, DKI Jakarta 12190
               </span>
             </li>
-            <li class="table w-max">
+            <li class="d-flex items-center gap-2">
               <img
                 class="table-cell cell-middle"
                 src="./images/telephone.svg"
@@ -781,7 +770,7 @@
                 >0800-1234-5678 (Gratis)</span
               >
             </li>
-            <li class="table w-max">
+            <li class="d-flex items-center gap-2">
               <img
                 class="table-cell cell-middle"
                 src="./images/mail.svg"
@@ -791,9 +780,9 @@
               >
             </li>
           </ul>
-          <div class="subscribe-form">
+          <div class="subscribe-form d-flex flex-column gap-3">
             <div class="text-white">Newsletter</div>
-            <div class="d-inline-block">
+            <div class="d-flex gap-2">
               <input
                 class="subscribe-input bg-gray text-white"
                 type="email"
@@ -808,17 +797,18 @@
         </div>
       </div>
       <hr class="hr-gray-dark" />
-      <div class="footer-bottom relative">
-        <span class="text-gray-dark w-75"
-          >2026 BeliMudah. Seluruh hak cipta dilindungi.</span
-        >
-        <span class="footer-links absolute right-0">
+
+      <div class="footer-bottom d-flex justify-between">
+        <div class="text-gray-dark">
+          2026 BeliMudah. Seluruh hak cipta dilindungi.
+        </div>
+        <div class="footer-links d-flex gap-3">
           <a href="" class="text-gray-dark text-decoration-none"
             >Kebijakan Privasi</a
           ><a href="" class="text-gray-dark text-decoration-none"
             >Syarat dan Ketentuan</a
           ><a href="" class="text-gray-dark text-decoration-none">Admin</a>
-        </span>
+        </div>
       </div>
     </footer>
   </body>

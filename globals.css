@@ -17,8 +17,25 @@ footer {
   padding: 16px 224px;
 } */
 
+.topbar,
+.top-nav,
+.btm-nav,
+.top-footer,
+.main-footer,
+.footer-bottom {
+  padding-inline: 224px;
+}
+
+.topbar {
+  padding-block: 6px;
+}
+
+.top-nav {
+  padding-block: 16px;
+}
+
 hr {
-  margin: 0 -224px;
+  /* margin: 0 -224px; */
   border: none;
   border-top: 1px solid #0000001a;
 }
@@ -32,16 +49,13 @@ header {
   color: #fff;
 }
 
-.topbar {
-  padding: 6px 0;
-}
-
-.topbar .right-content {
-  right: 0;
-}
-
 nav {
   white-space: nowrap;
+}
+
+nav div > a {
+  text-decoration: none;
+  color: #111827;
 }
 
 .icon-beli-mudah {
@@ -53,8 +67,12 @@ nav {
 }
 
 .nav-item {
-  margin-right: 12px;
   padding: 12px;
+}
+
+.nav-item button {
+  border: none;
+  background-color: transparent;
 }
 
 .icon {
@@ -74,10 +92,11 @@ nav {
 
 .search-box input {
   width: 100%;
-  padding: 8px;
+  padding: 12px 16px;
   border-radius: 8px;
   border: 1px solid #0000001a;
   background: #f3f4f6;
+  font-size: 14px;
 }
 
 .search-box input::placeholder {
@@ -109,8 +128,8 @@ footer {
   background: #111827;
 }
 
-.top-footer-benefit {
-  padding: 32px 0;
+.top-footer {
+  padding-block: 32px;
 }
 
 .footer-benefit {
@@ -118,11 +137,11 @@ footer {
 }
 
 .main-footer {
-  padding: 48px 0;
+  padding-block: 48px;
 }
 
 .footer-bottom {
-  padding: 16px 0;
+  padding-block: 16px;
 }
 
 .benefit-icon {

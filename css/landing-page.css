@@ -2,108 +2,105 @@ main {
   background-color: #f8f9fb;
 }
 
-section:nth-child(2) {
- padding-top: 52px;
+.landing-page-content {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
 }
 
-section:last-child  {
+section:not(.jumbo-carousel) {
+  padding-inline: 224px;
+}
+
+section:last-child {
   padding-bottom: 96px;
 }
 
 .jumbo-carousel {
-  .carousel-btn {
-    position: absolute;
-    top: 45%;
-    width: 48px;
-    height: 48px;
-
-    border: none;
-    border-radius: 50%;
-    cursor: pointer;
-
-    background: rgba(255, 255, 255, 0.9);
-    z-index: 99;
-  }
-
-  .carousel-btn {
-    background-color: #ffffff33;
-  }
-
-  .carousel-btn img {
-    width: 20px;
-    height: 20px;
-  }
-
-  .carousel-btn-left {
-    left: 16px;
-  }
-
-  .carousel-btn-right {
-    right: 16px;
-  }
-
-  .carousel-item {
-    width: 50%;
-    vertical-align: middle;
-  }
-
-  .carousel-item1 {
-    padding: 88px 224px;
-    background-color: #6720ea;
-    white-space: normal;
-
-    p {
-      opacity: 80%;
-    }
-
-    button {
-      padding: 12px 24px;
-      border-radius: 12px;
-      border: none;
-
-      &:hover {
-        cursor: pointer;
-      }
-    }
-  }
-
-  .carousel-item2 {
-    padding: 0;
-    font-size: 0;
-    line-height: 0;
-
-    img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      display: block;
-    }
-  }
+  position: relative;
+  overflow: hidden;
 }
 
-.category-prod {
-  .category-prod-container {
-    margin-top: 16px;
-    border-collapse: separate;
-    border-spacing: 12px;
-
-    .category {
-      padding: 16px 0;
-      border-radius: 12px;
-      text-align: center;
-    }
-  }
+.carousel-item {
+  width: 50%;
 }
 
-.flash-deal {
-  .flash-sale-items {
-    margin-top: 16px;
-    border-collapse: separate;
-    border-spacing: 12px;
-    .item-col {
-      border-radius: 12px;
-    }
-  }
+.carousel-item1 {
+  gap: 24px;
+  padding: 88px 224px;
+  background-color: #6720ea;
+}
+
+.carousel-item1 p {
+  opacity: 0.8;
+}
+
+.promo-btn {
+  width: fit-content;
+  gap: 8px;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.carousel-item2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.carousel-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+
+  width: 48px;
+  height: 48px;
+
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+
+  background-color: rgba(255, 255, 255, 0.2);
+  z-index: 99;
+}
+
+.carousel-btn img {
+  width: 20px;
+  height: 20px;
+}
+
+.carousel-btn-left {
+  left: 16px;
+}
+
+.carousel-btn-right {
+  right: 16px;
+}
+
+.category-prod-container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.category {
+  padding: 16px 0;
+  border: 1px solid #0000001a;
+  border-radius: 12px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.category img {
+  margin-bottom: 12px;
+}
+
+.category p {
+  margin-top: 4px;
 }
 
 .flash-deal-icon {
@@ -129,27 +126,24 @@ section:last-child  {
 }
 
 .flash-sale-items {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
   width: 100%;
-  border-collapse: separate;
-  border-spacing: 16px;
+  margin-top: 16px;
 }
 
-.row {
-  display: table-row;
-}
-
-.flash-sale-items .item-col {
-  width: 25%;
+.item-col {
   border: 1px solid #0000001a;
-  vertical-align: top;
   border-radius: 12px;
+  overflow: hidden;
 }
 
-.flash-sale-items .item-thumbnail {
+.item-thumbnail {
   width: 100%;
 }
 
-.flash-sale-items .item-thumbnail img {
+.item-thumbnail img {
   width: 100%;
   height: 298px;
   display: block;
@@ -157,10 +151,11 @@ section:last-child  {
 }
 
 .deals-container {
-  border-spacing: 16px;
+  gap: 16px;
 }
 
 .deal {
+  flex: 1;
   height: 176px;
 }
 
@@ -169,12 +164,13 @@ section:last-child  {
   height: 100%;
   border-radius: 16px;
   object-fit: cover;
+  display: block;
 }
 
 .deal .deal-content {
   top: 50%;
-  transform: translateY(-50%);
   left: 24px;
+  transform: translateY(-50%);
   z-index: 2;
 }
 
@@ -186,15 +182,16 @@ section:last-child  {
   border-radius: 8px;
   font-size: 14px;
   margin-top: 6px;
+}
 
-  &:hover {
-    cursor: pointer;
-  }
+.deal .deal-content button:hover {
+  cursor: pointer;
 }
 
 .why-shop-container {
   padding: 32px;
   border-radius: 16px;
+  border: 1px solid #0000001a;
 }
 
 .why-shop-container h3 {
@@ -203,7 +200,6 @@ section:last-child  {
 }
 
 .features-container {
-  width: 100%;
   text-align: center;
 }
 
