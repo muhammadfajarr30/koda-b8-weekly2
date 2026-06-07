@@ -133,7 +133,8 @@ footer {
 }
 
 .footer-benefit {
-  width: 25%;
+  flex: 1;
+  gap: 12px;
 }
 
 .main-footer {
@@ -148,6 +149,9 @@ footer {
   padding: 6px;
   background-color: #132b4e;
   border-radius: 100%;
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
 }
 
 .text-white {
