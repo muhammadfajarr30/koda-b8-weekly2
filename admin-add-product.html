@@ -1,0 +1,382 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="/css/admin.css" />
+    <title>Admin Add Product</title>
+  </head>
+  <body>
+    <div class="layout d-flex flex-row">
+      <aside class="d-flex flex-column sidebar">
+        <div class="logo">
+          <span class="logo-icon">B</span>
+          <span>BeliMudah</span>
+          <span>Admin</span>
+        </div>
+        <div class="sidebar-menu">
+          <a href="" class="d-flex items-center active"
+            ><img src="/images/dashboard.svg" alt="" /><span>Dashboard</span></a
+          ><a href="" class="d-flex items-center"
+            ><img src="/images/box.svg" alt="" /><span>Produk</span></a
+          ><a href="" class="d-flex items-center"
+            ><img src="/images/cart-white.svg" alt="" /><span>Pesanan</span></a
+          ><a href="" class="d-flex items-center"
+            ><img src="/images/customer.svg" alt="" /><span>Pelanggan</span></a
+          ><a href="" class="d-flex items-center"
+            ><img src="/images/gear.svg" alt="" /><span>Pengaturan</span></a
+          >
+        </div>
+        <div class="back-to-shop">
+          <a href="" class="d-flex items-center"
+            ><img src="/images/arrow-top-right-sidebar.svg" alt="" /><span
+              >Kembali Ke Toko</span
+            ></a
+          >
+        </div>
+      </aside>
+      <div class="content d-flex flex-column">
+        <header class="admin-navbar">
+          <nav class="d-flex justify-between">
+            <div class="d-flex items-center gap-6">
+              <button><img src="/images/cross.svg" alt="" /></button>
+              <p class="text-gray">Admin</p>
+            </div>
+            <div class="d-flex items-center gap-3">
+              <button>
+                <img src="/images/bell-notification.svg" alt="" />
+              </button>
+              <div class="avatar"><p>B</p></div>
+              <p class="username">Admin</p>
+            </div>
+          </nav>
+        </header>
+
+        <main class="dashboard d-flex flex-column">
+          <section class="top-flex d-flex flex-column gap-6">
+            <div class="d-flex items-center justify-between">
+              <div>
+                <h3>Manajemen Produk</h3>
+              </div>
+              <button class="btn-add-product">+ Tambah Produk</button>
+            </div>
+
+            <div class="search-bar-container d-flex">
+              <input
+                class="search-bar"
+                type="text"
+                placeholder="cari produk atau merek..." />
+              <button class="btn-category text-gray">Semua Kategori</button>
+              <button class="btn-filter d-flex items-center gap-2">
+                <img src="/images/filter.svg" alt="" />
+                <span class="text-gray">filter</span>
+              </button>
+            </div>
+
+            <div class="stat-container d-flex">
+              <div
+                class="card-product stat-card d-flex flex-column justify-center items-center">
+                <h2>18</h2>
+                <p>Produk</p>
+              </div>
+              <div
+                class="card-product stat-card d-flex flex-column justify-center items-center">
+                <h2>7</h2>
+                <p>Produk Baru</p>
+              </div>
+              <div
+                class="card-product stat-card d-flex flex-column justify-center items-center">
+                <h2>0</h2>
+                <p>Stok Rendah</p>
+              </div>
+              <div
+                class="card-product stat-card d-flex flex-column justify-center items-center">
+                <h2>11</h2>
+                <p>Produk Promo</p>
+              </div>
+            </div>
+
+            <div class="product-table">
+              <span>18 produk</span>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Produk</th>
+                    <th>Kategori</th>
+                    <th>Harga</th>
+                    <th>Stok</th>
+                    <th>Rating</th>
+                    <th>Status</th>
+                    <th>Aksi</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>
+                      <div class="product-detail">
+                        <div>
+                          <img
+                            src="images/Headphone Wireless Premium.png"
+                            alt="" />
+                        </div>
+                        <div>
+                          <p>Headphone Wireless Premum</p>
+                          <span class="text-gray">SoundWave</span>
+                        </div>
+                      </div>
+                    </td>
+                    <td><span class="electronic">Elektronik</span></td>
+                    <td class="price-tag">
+                      <p class="price text-blue">Rp 450.000</p>
+                      <p class="discount-price text-gray">Rp. 650.000</p>
+                    </td>
+                    <td><span class="stock">45</span></td>
+                    <td>
+                      <img src="images/star-yellow.svg" alt="" /><span>4.8</span
+                      ><span>(512)</span>
+                    </td>
+                    <td><span class="new">Baru</span></td>
+                    <td>
+                      <img src="/images/edit.svg" alt="" /><img
+                        src="images/trash-red.svg"
+                        alt="" />
+                    </td>
+                  </tr>
+                </tbody>
+                <tbody>
+                  <tr>
+                    <td>
+                      <div class="product-detail">
+                        <div>
+                          <img
+                            src="images/Headphone Wireless Premium.png"
+                            alt="" />
+                        </div>
+                        <div>
+                          <p>Headphone Wireless Premum</p>
+                          <span class="text-gray">SoundWave</span>
+                        </div>
+                      </div>
+                    </td>
+                    <td><span class="electronic">Elektronik</span></td>
+                    <td class="price-tag">
+                      <p class="price text-blue">Rp 450.000</p>
+                      <p class="discount-price text-gray">Rp. 650.000</p>
+                    </td>
+                    <td><span class="stock">45</span></td>
+                    <td>
+                      <img src="images/star-yellow.svg" alt="" /><span>4.8</span
+                      ><span>(512)</span>
+                    </td>
+                    <td><span class="new">Baru</span></td>
+                    <td>
+                      <img src="/images/edit.svg" alt="" /><img
+                        src="images/trash-red.svg"
+                        alt="" />
+                    </td>
+                  </tr>
+                </tbody>
+                <tbody>
+                  <tr>
+                    <td>
+                      <div class="product-detail">
+                        <div>
+                          <img
+                            src="images/Headphone Wireless Premium.png"
+                            alt="" />
+                        </div>
+                        <div>
+                          <p>Headphone Wireless Premum</p>
+                          <span class="text-gray">SoundWave</span>
+                        </div>
+                      </div>
+                    </td>
+                    <td><span class="electronic">Elektronik</span></td>
+                    <td class="price-tag">
+                      <p class="price text-blue">Rp 450.000</p>
+                      <p class="discount-price text-gray">Rp. 650.000</p>
+                    </td>
+                    <td><span class="stock">45</span></td>
+                    <td>
+                      <img src="images/star-yellow.svg" alt="" /><span>4.8</span
+                      ><span>(512)</span>
+                    </td>
+                    <td><span class="new">Baru</span></td>
+                    <td>
+                      <img src="/images/edit.svg" alt="" /><img
+                        src="images/trash-red.svg"
+                        alt="" />
+                    </td>
+                  </tr>
+                </tbody>
+                <tbody>
+                  <tr>
+                    <td>
+                      <div class="product-detail">
+                        <div>
+                          <img
+                            src="images/Headphone Wireless Premium.png"
+                            alt="" />
+                        </div>
+                        <div>
+                          <p>Headphone Wireless Premum</p>
+                          <span class="text-gray">SoundWave</span>
+                        </div>
+                      </div>
+                    </td>
+                    <td><span class="electronic">Elektronik</span></td>
+                    <td class="price-tag">
+                      <p class="price text-blue">Rp 450.000</p>
+                      <p class="discount-price text-gray">Rp. 650.000</p>
+                    </td>
+                    <td><span class="stock">45</span></td>
+                    <td>
+                      <img src="images/star-yellow.svg" alt="" /><span>4.8</span
+                      ><span>(512)</span>
+                    </td>
+                    <td><span class="new">Baru</span></td>
+                    <td>
+                      <img src="/images/edit.svg" alt="" /><img
+                        src="images/trash-red.svg"
+                        alt="" />
+                    </td>
+                  </tr>
+                </tbody>
+                <tbody>
+                  <tr>
+                    <td>
+                      <div class="product-detail">
+                        <div>
+                          <img
+                            src="images/Headphone Wireless Premium.png"
+                            alt="" />
+                        </div>
+                        <div>
+                          <p>Headphone Wireless Premum</p>
+                          <span class="text-gray">SoundWave</span>
+                        </div>
+                      </div>
+                    </td>
+                    <td><span class="electronic">Elektronik</span></td>
+                    <td class="price-tag">
+                      <p class="price text-blue">Rp 450.000</p>
+                      <p class="discount-price text-gray">Rp. 650.000</p>
+                    </td>
+                    <td><span class="stock">45</span></td>
+                    <td>
+                      <img src="images/star-yellow.svg" alt="" /><span>4.8</span
+                      ><span>(512)</span>
+                    </td>
+                    <td><span class="new">Baru</span></td>
+                    <td>
+                      <img src="/images/edit.svg" alt="" /><img
+                        src="images/trash-red.svg"
+                        alt="" />
+                    </td>
+                  </tr>
+                </tbody>
+                <tbody>
+                  <tr>
+                    <td>
+                      <div class="product-detail">
+                        <div>
+                          <img
+                            src="images/Headphone Wireless Premium.png"
+                            alt="" />
+                        </div>
+                        <div>
+                          <p>Headphone Wireless Premum</p>
+                          <span class="text-gray">SoundWave</span>
+                        </div>
+                      </div>
+                    </td>
+                    <td><span class="electronic">Elektronik</span></td>
+                    <td class="price-tag">
+                      <p class="price text-blue">Rp 450.000</p>
+                      <p class="discount-price text-gray">Rp. 650.000</p>
+                    </td>
+                    <td><span class="stock">45</span></td>
+                    <td>
+                      <img src="images/star-yellow.svg" alt="" /><span>4.8</span
+                      ><span>(512)</span>
+                    </td>
+                    <td><span class="new">Baru</span></td>
+                    <td>
+                      <img src="/images/edit.svg" alt="" /><img
+                        src="images/trash-red.svg"
+                        alt="" />
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </section>
+        </main>
+      </div>
+
+      <div class="modal-overlay">
+        <div class="modal">
+          <div class="modal-title d-flex items-center justify-between">
+            <h4>Tambah Produk Baru</h4>
+            <button><img src="/images/cross.svg" alt="" /></button>
+          </div>
+
+          <form class="grid-form" action="">
+            <div class="form-group">
+              <label>Nama Produk</label>
+              <input type="text" />
+            </div>
+
+            <div class="form-group">
+              <label>Merek</label>
+              <input type="text" />
+            </div>
+
+            <div class="form-group">
+              <label>Harga (IDR)</label>
+              <input type="text" />
+            </div>
+
+            <div class="form-group">
+              <label>Harga Asli (IDR)</label>
+              <input type="text" />
+            </div>
+
+            <div class="form-group">
+              <label>Stok</label>
+              <input type="text" />
+            </div>
+
+            <div class="form-group">
+              <label>Kategori</label>
+              <input type="text" />
+            </div>
+
+            <div class="form-group full-width">
+              <label>Deskripsi</label>
+              <textarea></textarea>
+            </div>
+
+            <div class="checkbox-group full-width">
+              <div>
+                <input type="checkbox" id="featured" />
+                <label for="featured">Produk Unggulan</label>
+              </div>
+
+              <div>
+                <input type="checkbox" id="new" />
+                <label for="new">Produk Baru</label>
+              </div>
+            </div>
+
+            <button class="action-btn cancel-btn" type="button">Batal</button>
+            <button class="action-btn submit-btn" type="submit">
+              Tambah Produk
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
