@@ -231,3 +231,39 @@ hr {
 .account-security h4 {
   margin-bottom: 16px;
 }
+
+.wishlist-items {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  width: 100%;
+  margin-top: 16px;
+}
+
+.item-col {
+  border: 1px solid #0000001a;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.item-thumbnail {
+  width: 100%;
+}
+
+.item-thumbnail img {
+  width: 100%;
+  height: 298px;
+  display: block;
+  object-fit: cover;
+}
+
+.disc-icon {
+  padding: 4px 8px;
+  border-radius: 16777200px;
+  top: 8px;
+  left: 8px;
+}
+
+.item-description {
+  padding: 12px;
+}
