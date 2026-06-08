@@ -11,20 +11,16 @@ main {
 }
 
 .hero,
-.login {
+.login,
+.register,
+.forgot-password {
   flex: 1;
 }
-
 .login {
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #f8f9fb;
-}
-
-.hero,
-.register {
-  flex: 1;
 }
 
 .register {
@@ -95,7 +91,7 @@ a {
   color: white;
 }
 
-.stat {
+.stat, .security-features {
   display: flex;
   flex-direction: row;
   gap: 12px;
@@ -106,7 +102,7 @@ a {
   color: white;
 }
 
-.special-feature {
+.special-feature, .security-features {
   font-size: 18px;
   display: flex;
   flex-direction: column;
@@ -213,9 +209,7 @@ input {
   width: 100%;
   padding: 16px;
   border-radius: 12px;
-
 }
-
 
 .remember {
   display: flex;
@@ -237,9 +231,18 @@ input {
   color: #6b7280;
   text-align: center;
   margin: 24px;
-
 }
 
 .terms {
   color: #6b7280;
+}
+
+.forgot-password-container {
+  padding-inline: 200px;
+}
+
+.btn-reset {
+  background-color: #1A73E8;
+  padding: 14px;
+  border-radius: 12px;
 }
