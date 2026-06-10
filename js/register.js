@@ -38,6 +38,8 @@ $(document).ready(function () {
       name: name,
       email: email,
       password: password,
+      cart: [],
+      wishlist:[]
     };
 
     users.push(newUsers);
