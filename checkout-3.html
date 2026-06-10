@@ -8,84 +8,389 @@
     <title>Document</title>
   </head>
   <body>
-    <main>
-      <section class="confirm-order">
-        <div class="container">
-          <div class="heading">
-            <h3>Konfirmasi Pesanan</h3>
-          </div>
-          <div class="address-card">
-            <p>Alamat Pengiriman</p>
-            <p>Budi Santoso · 0812-3456-7890</p>
-            <p>Jl. Kebon Jeruk No. 15, Jakarta Barat, DKI Jakarta 11530</p>
-          </div>
-          <div class="shipping-info">
-            <p>Metode Pengiriman</p>
-            <p>JNE Reguler · 3-5 hari kerja</p>
-          </div>
-          <div class="ordered-products">
-            <p>Produk yang Dipesan</p>
+    <header>
+      <div class="topbar d-flex items-center justify-between">
+        <div class="">
+          <img class="" src="./images/location.svg" alt="" />
+          <span class="">Kirim ke: Jakarta Selatan</span>
+        </div>
+        <div class="d-flex items-center gap-3">
+          <p>📞 0800-1234-5678 (Gratis)</p>
+          <p>🚀 Gratis ongkir di atas Rp 100.000</p>
+        </div>
+      </div>
+    </header>
+    <nav>
+      <div class="top-nav d-flex items-center gap-3 justify-center">
+        <a
+          class="icon-beli-mudah d-flex items-center"
+          href="/landing-page.html">
+          <div class="icon">B</div>
+          <span class="">BeliMudah</span>
+        </a>
+        <div class="search-box">
+          <input type="text" placeholder="Cari produk, merek, kategori..." />
+        </div>
+        <ul class="nav-items d-flex items-center">
+          <li class="nav-item">
+            <button class="d-flex items-center">
+              <img class="" src="./images/bell.svg" alt="" />
+            </button>
+          </li>
+          <li class="nav-item">
+            <button class="d-flex items-center gap-2">
+              <img src="./images/profile.svg" alt="" />
+              <span>Budi</span>
+            </button>
+          </li>
+          <li class="nav-item">
+            <button class="d-flex items-center">
+              <img class="" src="./images/heart.svg" alt="" />
+            </button>
+          </li>
+          <li class="nav-item">
+            <button class="d-flex items-center">
+              <img class="" src="./images/cart.svg" alt="" />
+            </button>
+          </li>
+        </ul>
+      </div>
+      <hr />
 
-            <div class="product-list">
-              <div class="product-item">
-                <div class="product-detail">
-                  <img src="images/Headphone Wireless Premium.png" alt="" />
+      <div class="btm-nav">
+        <ul class="d-flex justify-center">
+          <li class="nav-item d-flex items-center gap-2">
+            <img src="images/burger-menu.svg" alt="" />
+            <span>Semua Kategori</span>
+            <img src="./images/dropdown.svg" alt="" />
+          </li>
+          <li class="nav-item d-flex items-center gap-2 text-gray">
+            <span>💻</span>
+            <span>Elektronik</span>
+          </li>
+          <li class="nav-item d-flex items-center gap-2 text-gray">
+            <span>👗</span>
+            <span>Fashion</span>
+          </li>
+          <li class="nav-item d-flex items-center gap-2 text-gray">
+            <span>🏠</span>
+            <span>Rumah & Dapur</span>
+          </li>
+          <li class="nav-item d-flex items-center gap-2 text-gray">
+            <span>💄</span>
+            <span>Kecantikan</span>
+          </li>
+          <li class="nav-item d-flex items-center gap-2 text-gray">
+            <span>⚽</span>
+            <span>Olahraga</span>
+          </li>
+          <li class="nav-item d-flex items-center gap-2 text-gray">
+            <span>📚</span>
+            <span>Buku & Alat Tulis</span>
+          </li>
+          <li class="nav-item d-flex items-center gap-2 promo">
+            <span>🔥</span>
+            <span>Promo</span>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <main class="flex-column items-center">
+      <div class="checkout-steps">
+        <div class="step active">
+          <div class="circle">1</div>
+          <span>Pengiriman</span>
+        </div>
 
-                  <div class="product-info">
-                    <p>Headphone Wireless Premium</p>
-                    <p>1x</p>
+        <div class="line"></div>
+
+        <div class="step">
+          <div class="circle">2</div>
+          <span>Pembayaran</span>
+        </div>
+
+        <div class="line"></div>
+
+        <div class="step">
+          <div class="circle">3</div>
+          <span>Konfirmasi</span>
+        </div>
+      </div>
+      <div class="container-step3 d-flex gap-6">
+        <section class="confirm-order">
+          <div class="container">
+            <div class="heading">
+              <h3>Konfirmasi Pesanan</h3>
+            </div>
+            <div class="address-card">
+              <p>Alamat Pengiriman</p>
+              <p>Budi Santoso · 0812-3456-7890</p>
+              <p>Jl. Kebon Jeruk No. 15, Jakarta Barat, DKI Jakarta 11530</p>
+            </div>
+            <div class="shipping-info">
+              <p>Metode Pengiriman</p>
+              <p>JNE Reguler · 3-5 hari kerja</p>
+            </div>
+            <div class="ordered-products">
+              <p>Produk yang Dipesan</p>
+
+              <div class="product-list">
+                <div class="product-item">
+                  <div class="product-detail">
+                    <img src="images/Headphone Wireless Premium.png" alt="" />
+
+                    <div class="product-info">
+                      <p>Headphone Wireless Premium</p>
+                      <p>1x</p>
+                    </div>
                   </div>
-                </div>
 
-                <p class="product-price">Rp 450.000</p>
+                  <p class="product-price">Rp 450.000</p>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="payment-notice">
-          <img src="/images/shield.svg" alt="" />
-          <p>
-            Dengan menekan "Bayar Sekarang", kamu menyetujui Syarat & Ketentuan
-            kami. Pembayaran baru akan diproses setelah kamu mengonfirmasi di
-            langkah ini.
-          </p>
-        </div>
-        <div class="return-payment">
-          <button class="btn-return">Kembali</button>
-          <button class="btn-payment">
-            <img src="images/lock-white.svg" alt="" />
-            <p>Bayar Sekarang</p>
-          </button>
-        </div>
-      </section>
-      <section class="order-summary">
-        <div class="container-order">
-          <div class="heading">
-            <h3>Ringkasan Pesanan</h3>
+          <div class="payment-notice">
+            <img src="/images/shield.svg" alt="" />
+            <p>
+              Dengan menekan "Bayar Sekarang", kamu menyetujui Syarat &
+              Ketentuan kami. Pembayaran baru akan diproses setelah kamu
+              mengonfirmasi di langkah ini.
+            </p>
           </div>
-          <div class="order-count">
-            <img src="/images/Headphone Wireless Premium.png" alt="" />
-            <p>Headphone Wireless Premium</p>
-            <span>x1</span>
+          <div class="return-payment">
+            <button class="btn-return">Kembali</button>
+            <button class="btn-payment">
+              <img src="images/lock-white.svg" alt="" />
+              <p>Bayar Sekarang</p>
+            </button>
           </div>
-          <hr />
-          <div class="summary-row">
-            <span>Subtotal</span>
-            <span>Rp 450.000</span>
-          </div>
+        </section>
+        <section class="order-summary">
+          <div class="container-order">
+            <div class="heading">
+              <h3>Ringkasan Pesanan</h3>
+            </div>
+            <div class="order-count">
+              <img src="/images/Headphone Wireless Premium.png" alt="" />
+              <p>Headphone Wireless Premium</p>
+              <span>x1</span>
+            </div>
+            <hr />
+            <div class="summary-row">
+              <span>Subtotal</span>
+              <span>Rp 450.000</span>
+            </div>
 
-          <hr />
+            <hr />
 
-          <div class="summary-row">
-            <span>Ongkir</span>
-            <span>Gratis</span>
+            <div class="summary-row">
+              <span>Ongkir</span>
+              <span>Gratis</span>
+            </div>
+            <div class="summary-row">
+              <span>Total</span>
+              <span>Rp.450.000</span>
+            </div>
           </div>
-          <div class="summary-row">
-            <span>Total</span>
-            <span>Rp.450.000</span>
-          </div>
-        </div>
-      </section>
+        </section>
+      </div>
     </main>
+    <footer>
+      <div class="top-footer">
+        <ul class="top-footer-benefit d-flex space-between">
+          <li class="footer-benefit d-flex items-center gap-3">
+            <img class="benefit-icon" src="./images/truck.svg" alt="" />
+            <div class="table">
+              <h5 class="text-white">Gratis Ongkir</h5>
+              <span class="text-gray-dark">Pembelian di atas Rp 100.000</span>
+            </div>
+          </li>
+          <li class="footer-benefit d-flex items-center gap-3">
+            <img class="benefit-icon" src="./images/shield.svg" alt="" />
+            <div>
+              <h5 class="text-white">Pembayaran Aman</h5>
+              <span class="text-gray-dark">SSL terenskripsi 256-bit</span>
+            </div>
+          </li>
+          <li class="footer-benefit d-flex items-center gap-3">
+            <img class="benefit-icon" src="./images/refund.svg" alt="" />
+            <div class="">
+              <h5 class="text-white">Pengembalian Mudah</h5>
+              <span class="text-gray-dark">30 hari pengembalian gratis</span>
+            </div>
+          </li>
+          <li class="footer-benefit d-flex items-center gap-3">
+            <img class="benefit-icon" src="./images/support.svg" alt="" />
+            <div class="">
+              <h5 class="text-white">Dukungan 24/7</h5>
+              <span class="text-gray-dark">Bantuan kapan saja</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <hr class="hr-gray-dark" />
+
+      <div class="main-footer d-flex space-between">
+        <div class="footer-column d-flex flex-column gap-3">
+          <div class="icon-beli-mudah-b d-flex items-center">
+            <div class="icon">B</div>
+            <span class="d-flex text-white">BeliMudah</span>
+          </div>
+          <p class="text-gray-dark">
+            Platform belanja online terpercaya dengan ribuan produk pilihan.
+            Belanja mudah, aman, dan menyenangkan.
+          </p>
+          <ul class="social-media d-flex">
+            <li class="d-flex">
+              <a href="#"
+                ><img
+                  class="social-media-item bg-gray"
+                  src="./images/facebook.svg"
+                  alt="Facebook"
+              /></a>
+            </li>
+            <li class="d-flex">
+              <a href="#"
+                ><img
+                  class="social-media-item bg-gray"
+                  src="./images/instagram.svg"
+                  alt="Instagram"
+              /></a>
+            </li>
+            <li class="d-flex">
+              <a href="#"
+                ><img
+                  class="social-media-item bg-gray"
+                  src="./images/twitter.svg"
+                  alt="Twitter"
+              /></a>
+            </li>
+            <li class="d-flex">
+              <a href="#"
+                ><img
+                  class="social-media-item bg-gray"
+                  src="./images/youtube.svg"
+                  alt="YouTube"
+              /></a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-column d-flex flex-column gap-3">
+          <h4 class="text-white">Layanan</h4>
+          <ul class="list-none d-flex flex-column gap-3">
+            <li>
+              <a class="text-gray-dark text-decoration-none" href="#"
+                >Tentang Kami</a
+              >
+            </li>
+            <li>
+              <a class="text-gray-dark text-decoration-none" href="#">Karir</a>
+            </li>
+            <li>
+              <a class="text-gray-dark text-decoration-none" href="#">Blog</a>
+            </li>
+            <li>
+              <a class="text-gray-dark text-decoration-none" href="#"
+                >Program Afiliasi</a
+              >
+            </li>
+            <li>
+              <a class="text-gray-dark text-decoration-none" href="#"
+                >Jual di BeliMudah</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="footer-column d-flex flex-column gap-3">
+          <h4 class="text-white">Bantuan</h4>
+          <ul class="list-none d-flex flex-column gap-3">
+            <li>
+              <a class="text-gray-dark text-decoration-none" href="#"
+                >Cara Belanja</a
+              >
+            </li>
+            <li>
+              <a class="text-gray-dark text-decoration-none" href="#"
+                >Kebijakan Pengembalian</a
+              >
+            </li>
+            <li>
+              <a class="text-gray-dark text-decoration-none" href="#"
+                >Lacak Pesanan</a
+              >
+            </li>
+            <li>
+              <a class="text-gray-dark text-decoration-none" href="#">FAQ</a>
+            </li>
+            <li>
+              <a class="text-gray-dark text-decoration-none" href="#"
+                >Hubungi Kami</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="footer-column d-flex flex-column gap-3">
+          <h4 class="text-white">Kontak</h4>
+          <ul class="list-none d-flex flex-column gap-3">
+            <li class="d-flex items-center gap-2">
+              <img
+                class="table-cell cell-middle"
+                src="./images/location-footer.svg"
+                alt="" />
+              <span class="table-cell cell-middle text-gray-dark">
+                Jl. Sudirman No. 1, Jakarta Selatan, DKI Jakarta 12190
+              </span>
+            </li>
+            <li class="d-flex items-center gap-2">
+              <img
+                class="table-cell cell-middle"
+                src="./images/telephone.svg"
+                alt="" />
+              <span class="table-cell cell-middle text-gray-dark"
+                >0800-1234-5678 (Gratis)</span
+              >
+            </li>
+            <li class="d-flex items-center gap-2">
+              <img
+                class="table-cell cell-middle"
+                src="./images/mail.svg"
+                alt="" />
+              <span class="table-cell cell-middle text-gray-dark"
+                >bantuan@belimudah.id</span
+              >
+            </li>
+          </ul>
+          <div class="subscribe-form d-flex flex-column gap-3">
+            <div class="text-white">Newsletter</div>
+            <div class="d-flex gap-2">
+              <input
+                class="subscribe-input bg-gray text-white"
+                type="email"
+                name=""
+                id=""
+                placeholder="Email kamu" />
+              <button class="subscribe-btn text-white bg-blue" type="submit">
+                Langganan
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr class="hr-gray-dark" />
+
+      <div class="footer-bottom d-flex justify-between">
+        <div class="text-gray-dark">
+          2026 BeliMudah. Seluruh hak cipta dilindungi.
+        </div>
+        <div class="footer-links d-flex gap-3">
+          <a href="" class="text-gray-dark text-decoration-none"
+            >Kebijakan Privasi</a
+          ><a href="" class="text-gray-dark text-decoration-none"
+            >Syarat dan Ketentuan</a
+          ><a href="" class="text-gray-dark text-decoration-none">Admin</a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

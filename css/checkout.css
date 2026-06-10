@@ -27,6 +27,10 @@ form {
   border-radius: 12px;
 }
 
+.confirm-order {
+  margin-bottom: 32px;
+}
+
 .checkout-success {
   max-width: 736px;
   background-color: #f8f9fb;
