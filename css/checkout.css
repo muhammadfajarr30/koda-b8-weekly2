@@ -357,7 +357,6 @@ hr {
 
 .product-tag-container,
 .order-status {
-  border: 1px solid red;
   background-color: white;
   padding: 24px;
   border-radius: 12px;
