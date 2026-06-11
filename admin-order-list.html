@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Manajemen Pesanan</title>
+  </head>
+
+  <body class="bg-gray-100">
+    <div class="flex min-h-screen">
+      <!-- Sidebar -->
+      <aside class="w-64 bg-slate-950 text-white flex flex-col">
+        <div class="p-5 border-b border-slate-800">
+          <div class="flex items-center gap-3">
+            <div
+              class="w-9 h-9 bg-blue-600 rounded-lg flex items-center justify-center font-bold">
+              B
+            </div>
+
+            <div>
+              <h1 class="font-md">BeliMudah</h1>
+            </div>
+
+            <div><p>Admin</p></div>
+          </div>
+        </div>
+
+        <nav class="flex-1 px-3 py-5 space-y-2">
+          <a
+            href="#"
+            class="flex items-center gap-3 px-4 py-3 rounded-lg text-slate-400">
+            Dashboard
+          </a>
+
+          <a
+            href="#"
+            class="flex items-center gap-3 px-4 py-3 rounded-lg text-slate-400">
+            Produk
+          </a>
+
+          <a
+            href="#"
+            class="flex items-center gap-3 px-4 py-3 rounded-lg bg-blue-600">
+            Pesanan
+          </a>
+
+          <a
+            href="#"
+            class="flex items-center gap-3 px-4 py-3 rounded-lg text-slate-400">
+            Pelanggan
+          </a>
+
+          <a
+            href="#"
+            class="flex items-center gap-3 px-4 py-3 rounded-lg text-slate-400">
+            Pengaturan
+          </a>
+        </nav>
+
+        <div class="p-4 border-t border-slate-800">
+          <a href="#" class="text-sm text-slate-400 hover:text-white">
+            Kembali ke Toko
+          </a>
+        </div>
+      </aside>
+
+      <!-- Main Content -->
+      <main class="flex-1">
+        <!-- Navbar -->
+        <header
+          class="bg-white border-b px-8 py-4 flex justify-between items-center">
+          <div class="flex items-center gap-4">
+            <button class="text-gray-500 text-xl">
+              <img src="images/cross.svg" alt="" />
+            </button>
+            <span class="text-gray-500">Admin</span>
+          </div>
+
+          <div class="flex items-center gap-4">
+            <button class="relative">
+              <img src="/images/bell-notification.svg" alt="" />
+            </button>
+
+            <div
+              class="w-9 h-9 rounded-full bg-blue-100 flex items-center justify-center text-blue-600 font-medium">
+              A
+            </div>
+
+            <span>Admin</span>
+          </div>
+        </header>
+
+        <div class="p-8">
+          <div class="flex justify-between items-center mb-6">
+            <h1 class="text-3xl font-bold">Manajemen Pesanan</h1>
+
+            <button
+              class="bg-blue-600 text-white px-5 py-2 rounded-lg hover:bg-blue-700">
+              Ekspor
+            </button>
+          </div>
+          <div class="flex gap-3 mb-6 flex-wrap">
+            <button class="bg-blue-600 text-white px-4 py-2 rounded-lg text-sm">
+              Semua (8)
+            </button>
+            <button class="bg-white border px-4 py-2 rounded-lg text-sm">
+              Pending (1)
+            </button>
+            <button class="bg-white border px-4 py-2 rounded-lg text-sm">
+              Dikemas (1)
+            </button>
+            <button class="bg-white border px-4 py-2 rounded-lg text-sm">
+              Dikirim (2)
+            </button>
+            <button class="bg-white border px-4 py-2 rounded-lg text-sm">
+              Terkirim (3)
+            </button>
+          </div>
+          <div class="bg-white border rounded-xl p-4 flex gap-4 mb-6">
+            <input
+              type="text"
+              placeholder="Cari nomor pesanan atau nama pelanggan..."
+              class="flex-1 border rounded-lg px-4 py-3" />
+            <button class="border px-5 py-3 rounded-lg flex gap-2">
+              <img src="/images/filter.svg" alt="" />
+              Filter
+            </button>
+          </div>
+          <div class="bg-white rounded-xl border overflow-hidden">
+            <table class="w-full">
+              <thead class="bg-gray-50 text-gray-500 text-sm">
+                <tr>
+                  <th class="text-left px-6 py-4">No. Pesanan</th>
+                  <th class="text-left">Pelanggan</th>
+                  <th class="text-left">Tanggal</th>
+                  <th class="text-left">Item</th>
+                  <th class="text-left">Total</th>
+                  <th class="text-left">Pembayaran</th>
+                  <th class="text-left">Status</th>
+                  <th class="text-left">Aksi</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="border-t">
+                  <td class="px-6 py-4 text-blue-600 font-medium">
+                    #BM98765432
+                  </td>
+                  <td>
+                    <div>
+                      <p>Budi Santoso</p>
+                      <span class="text-sm text-gray-500">
+                        budi@email.com
+                      </span>
+                    </div>
+                  </td>
+                  <td>28 Mei 2026</td>
+                  <td>2</td>
+                  <td class="text-blue-600 font-medium">Rp 900.000</td>
+                  <td>GoPay</td>
+                  <td>
+                    <span
+                      class="bg-green-100 text-green-600 px-3 py-1 rounded-full text-xs">
+                      Terkirim
+                    </span>
+                  </td>
+                  <td><img src="images/eye.svg" alt="" /></td>
+                </tr>
+                <tr class="border-t">
+                  <td class="px-6 py-4 text-blue-600 font-medium">
+                    #BM87654321
+                  </td>
+                  <td>
+                    <div>
+                      <p>Siti Rahayu</p>
+                      <span class="text-sm text-gray-500">
+                        siti@email.com
+                      </span>
+                    </div>
+                  </td>
+                  <td>28 Mei 2026</td>
+                  <td>1</td>
+                  <td class="text-blue-600 font-medium">Rp 450.000</td>
+                  <td>VA BCA</td>
+                  <td>
+                    <span
+                      class="bg-blue-100 text-blue-600 px-3 py-1 rounded-full text-xs">
+                      Dikirim
+                    </span>
+                  </td>
+                  <td><img src="images/eye.svg" alt="" /></td>
+                </tr>
+                <tr class="border-t">
+                  <td class="px-6 py-4 text-blue-600 font-medium">
+                    #BM76543210
+                  </td>
+                  <td>
+                    <div>
+                      <p>Ahmad Maulana</p>
+                      <span class="text-sm text-gray-500">
+                        ahmad@email.com
+                      </span>
+                    </div>
+                  </td>
+                  <td>27 Mei 2026</td>
+                  <td>3</td>
+                  <td class="text-blue-600 font-medium">Rp 1.250.000</td>
+                  <td>Kartu Kredit</td>
+                  <td>
+                    <span
+                      class="bg-indigo-100 text-indigo-600 px-3 py-1 rounded-full text-xs">
+                      Dikemas
+                    </span>
+                  </td>
+                  <td><img src="images/eye.svg" alt="" /></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
